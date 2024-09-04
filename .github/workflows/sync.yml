@@ -26,7 +26,7 @@ jobs:
         run: |
           curl -o temp.yaml https://www.freeclashnode.com/uploads/$(date +"%Y/%m/0-%Y%m%d" -d "8 hour").yaml
           curl -o temp.txt https://www.freeclashnode.com/uploads/$(date +"%Y/%m/0-%Y%m%d" -d "8 hour").txt
-          curl -o temp.json https://www.freeclashnode.com/uploads/$(date +"%Y/%m%Y%m%d" -d "8 hour").json
+          curl -o temp.json https://www.freeclashnode.com/uploads/$(date +"%Y/%m/%Y%m%d" -d "8 hour").json
       - name: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

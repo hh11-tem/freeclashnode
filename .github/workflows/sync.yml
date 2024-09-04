@@ -19,6 +19,9 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
+      - name: show date
+        run: echo $(date +"%Y/%m/0-%Y%m%d" -d "1 day")
+
       - name: download node
         run: |
           curl -o temp.yaml https://www.freeclashnode.com/uploads/$(date +"%Y/%m/0-%Y%m%d" -d "1 day").yaml

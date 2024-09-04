@@ -20,13 +20,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: show date
-        run: echo $(date +"%Y/%m/0-%Y%m%d" -d "1 day")
+        run: echo $(date +"%Y/%m/0-%Y%m%d" -d "8 hour")
 
       - name: download node
         run: |
-          curl -o temp.yaml https://www.freeclashnode.com/uploads/$(date +"%Y/%m/0-%Y%m%d" -d "1 day").yaml
-          curl -o temp.txt https://www.freeclashnode.com/uploads/$(date +"%Y/%m/0-%Y%m%d" -d "1 day").txt
-          curl -o temp.json https://www.freeclashnode.com/uploads/$(date +"%Y/%m%Y%m%d" -d "1 day").json
+          curl -o temp.yaml https://www.freeclashnode.com/uploads/$(date +"%Y/%m/0-%Y%m%d" -d "8 hour").yaml
+          curl -o temp.txt https://www.freeclashnode.com/uploads/$(date +"%Y/%m/0-%Y%m%d" -d "8 hour").txt
+          curl -o temp.json https://www.freeclashnode.com/uploads/$(date +"%Y/%m%Y%m%d" -d "8 hour").json
       - name: commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

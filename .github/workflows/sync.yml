@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: show date
-        run: echo $(date +"%Y/%m/0-%Y%m%d" -d "8 hour")
+        run: echo $(date -d "8 hour")
 
       - name: download node
         run: |

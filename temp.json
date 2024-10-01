@@ -71,140 +71,44 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇳🇱_NL_荷兰->🇺🇸_US_美国", "🇨🇳_CN_中国", "🇺🇸_US_美国", "🇺🇸_US_美国->🇨🇦_CA_加拿大", "🇺🇸_US_美国->🇨🇦_CA_加拿大_1", "🇺🇸_US_美国->🇨🇦_CA_加拿大_2", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇺🇸_US_美国->🇨🇦_CA_加拿大_3", "🇨🇳_CN_中国->🇸🇪_SE_瑞典", "🇺🇸_US_美国_4", "🇺🇸_US_美国_5", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国_6", "🇺🇸_US_美国_7", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯", "🇩🇪_DE_德国", "🇺🇸_US_美国_8", "🇺🇸_US_美国_9", "🇺🇸_US_美国_10", "🇺🇸_US_美国->🇨🇦_CA_加拿大_4", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1", "🇺🇸_US_美国_11", "🇺🇸_US_美国->🇨🇦_CA_加拿大_5", "🇺🇸_US_美国_12" ],
+    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国->🇨🇦_CA_加拿大", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇺🇸_US_美国->🇨🇦_CA_加拿大_1", "🇺🇸_US_美国->🇨🇦_CA_加拿大_2", "🇺🇸_US_美国->🇨🇦_CA_加拿大_3", "🇺🇸_US_美国->🇨🇦_CA_加拿大_4", "🇺🇸_US_美国_4", "🇺🇸_US_美国->🇩🇪_DE_德国_1", "🇫🇷_FR_法国", "🇺🇸_US_美国->🇨🇦_CA_加拿大_5", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国_5", "🇺🇸_US_美国->🏳️_unKnow_未知", "🇺🇸_US_美国->🇨🇦_CA_加拿大_6", "🇺🇸_US_美国->🇨🇦_CA_加拿大_7", "🇺🇸_US_美国->🇨🇦_CA_加拿大_8", "🇺🇸_US_美国_6", "🇺🇸_US_美国_7", "🇺🇸_US_美国_8", "🇺🇸_US_美国_9", "🇺🇸_US_美国->🇨🇦_CA_加拿大_9", "🇺🇸_US_美国_10", "🇺🇸_US_美国->🇨🇦_CA_加拿大_10", "🇺🇸_US_美国_11", "🇺🇸_US_美国_12", "🇺🇸_US_美国_13", "🇺🇸_US_美国->🇨🇦_CA_加拿大_11" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇳🇱_NL_荷兰->🇺🇸_US_美国", "🇨🇳_CN_中国", "🇺🇸_US_美国", "🇺🇸_US_美国->🇨🇦_CA_加拿大", "🇺🇸_US_美国->🇨🇦_CA_加拿大_1", "🇺🇸_US_美国->🇨🇦_CA_加拿大_2", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇺🇸_US_美国->🇨🇦_CA_加拿大_3", "🇨🇳_CN_中国->🇸🇪_SE_瑞典", "🇺🇸_US_美国_4", "🇺🇸_US_美国_5", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国_6", "🇺🇸_US_美国_7", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯", "🇩🇪_DE_德国", "🇺🇸_US_美国_8", "🇺🇸_US_美国_9", "🇺🇸_US_美国_10", "🇺🇸_US_美国->🇨🇦_CA_加拿大_4", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1", "🇺🇸_US_美国_11", "🇺🇸_US_美国->🇨🇦_CA_加拿大_5", "🇺🇸_US_美国_12" ],
+    "outbounds" : [ "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国->🇨🇦_CA_加拿大", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇺🇸_US_美国->🇨🇦_CA_加拿大_1", "🇺🇸_US_美国->🇨🇦_CA_加拿大_2", "🇺🇸_US_美国->🇨🇦_CA_加拿大_3", "🇺🇸_US_美国->🇨🇦_CA_加拿大_4", "🇺🇸_US_美国_4", "🇺🇸_US_美国->🇩🇪_DE_德国_1", "🇫🇷_FR_法国", "🇺🇸_US_美国->🇨🇦_CA_加拿大_5", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国_5", "🇺🇸_US_美国->🏳️_unKnow_未知", "🇺🇸_US_美国->🇨🇦_CA_加拿大_6", "🇺🇸_US_美国->🇨🇦_CA_加拿大_7", "🇺🇸_US_美国->🇨🇦_CA_加拿大_8", "🇺🇸_US_美国_6", "🇺🇸_US_美国_7", "🇺🇸_US_美国_8", "🇺🇸_US_美国_9", "🇺🇸_US_美国->🇨🇦_CA_加拿大_9", "🇺🇸_US_美国_10", "🇺🇸_US_美国->🇨🇦_CA_加拿大_10", "🇺🇸_US_美国_11", "🇺🇸_US_美国_12", "🇺🇸_US_美国_13", "🇺🇸_US_美国->🇨🇦_CA_加拿大_11" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
-    "type" : "vless",
-    "tag" : "🇳🇱_NL_荷兰->🇺🇸_US_美国",
-    "server" : "45.149.12.115",
-    "server_port" : 80,
-    "uuid" : "04bef300-74b8-5311-b875-a5df3d121a7a",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro?ed=2048",
-      "headers" : {
-        "host" : "www.iranserever.com.kомната0.房間.wonkacapitano.buzz."
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇨🇳_CN_中国",
-    "server" : "122.195.189.15",
-    "server_port" : 10715,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "dd29d7ad-5fda-4f64-a57e-716ca6010e65",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
     "type" : "shadowsocks",
     "tag" : "🇺🇸_US_美国",
-    "server" : "69.50.95.53",
-    "server_port" : 6379,
+    "server" : "38.110.1.46",
+    "server_port" : 8091,
     "method" : "aes-256-gcm",
-    "password" : "zDNVedRFPQexG9v",
+    "password" : "PCnnH6SQSnfoS27",
     "multiplex" : {
       "enabled" : true
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国_1",
+    "server" : "singapore.com",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip1.1789034.xyz"
+      }
     }
   }, {
     "type" : "vmess",
     "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大",
-    "server" : "104.19.46.59",
-    "server_port" : 2086,
-    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "github.com/Alvin9999",
-      "headers" : {
-        "host" : "ip1.1457230.xyz"
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_1",
-    "server" : "104.19.45.50",
-    "server_port" : 2086,
-    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "github.com/Alvin9999",
-      "headers" : {
-        "host" : "ip13.freegradely.xyz"
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_2",
-    "server" : "104.19.47.22",
-    "server_port" : 2086,
-    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "github.com/Alvin9999",
-      "headers" : {
-        "host" : "ip14.freegradely.xyz"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_1",
-    "server" : "69.50.95.53",
-    "server_port" : 3389,
-    "method" : "aes-256-gcm",
-    "password" : "Y6R9pAtvxxzmGC",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇺🇸_US_美国_2",
-    "server" : "172.67.71.187",
-    "server_port" : 2086,
-    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "github.com/Alvin9999",
-      "headers" : {
-        "host" : "ip1.1789034.xyz"
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇺🇸_US_美国_3",
-    "server" : "104.26.5.57",
-    "server_port" : 2086,
-    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "github.com/Alvin9999",
-      "headers" : {
-        "host" : "ip1.1789034.xyz"
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_3",
-    "server" : "172.64.166.28",
+    "server" : "104.19.47.36",
     "server_port" : 2086,
     "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
     "security" : "auto",
@@ -215,36 +119,6 @@
       "headers" : {
         "host" : "ip2.1457230.xyz"
       }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇨🇳_CN_中国->🇸🇪_SE_瑞典",
-    "server" : "122.195.189.15",
-    "server_port" : 10714,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "dd29d7ad-5fda-4f64-a57e-716ca6010e65",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_4",
-    "server" : "69.50.95.53",
-    "server_port" : 8119,
-    "method" : "aes-256-gcm",
-    "password" : "cdBIDV42DCwnfIN",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_5",
-    "server" : "142.202.49.122",
-    "server_port" : 8118,
-    "method" : "aes-256-gcm",
-    "password" : "cdBIDV42DCwnfIN",
-    "multiplex" : {
-      "enabled" : true
     }
   }, {
     "type" : "vmess",
@@ -262,55 +136,24 @@
       }
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_6",
-    "server" : "38.86.135.117",
-    "server_port" : 8118,
-    "method" : "aes-256-gcm",
-    "password" : "cdBIDV42DCwnfIN",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_7",
-    "server" : "142.202.49.122",
-    "server_port" : 7306,
-    "method" : "aes-256-gcm",
-    "password" : "FoOiGlkAA9yPEGP",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇷🇺_RU_俄罗斯",
-    "server" : "104.25.136.6",
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国_2",
+    "server" : "104.16.60.8",
     "server_port" : 80,
-    "uuid" : "19b0c039-e131-5b52-a7c1-fb60a8340d5a",
-    "tls" : {
-      "enabled" : true
-    },
+    "uuid" : "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+    "security" : "auto",
+    "alter_id" : 0,
     "transport" : {
       "type" : "ws",
-      "path" : "/vless#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro?ed=2048",
+      "path" : "/obdii.cfd/linkws",
       "headers" : {
-        "host" : "www.speedtest.com.農達懲востейc0ntr0l.wonkacapitano.buzz."
+        "host" : "4868-poetry-4868.napora7003.workers.dev"
       }
     }
   }, {
-    "type" : "trojan",
-    "tag" : "🇩🇪_DE_德国",
-    "server" : "18.184.143.2",
-    "server_port" : 22222,
-    "password" : "telegram-id-privatevpns",
-    "tls" : {
-      "enabled" : true,
-      "insecure" : false
-    }
-  }, {
     "type" : "vmess",
-    "tag" : "🇺🇸_US_美国_8",
-    "server" : "104.26.5.66",
+    "tag" : "🇺🇸_US_美国_3",
+    "server" : "104.18.14.19",
     "server_port" : 2086,
     "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
     "security" : "auto",
@@ -323,19 +166,9 @@
       }
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_9",
-    "server" : "38.110.1.46",
-    "server_port" : 5500,
-    "method" : "aes-256-gcm",
-    "password" : "KixLvKzwjekG00rm",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
     "type" : "vmess",
-    "tag" : "🇺🇸_US_美国_10",
-    "server" : "104.26.9.156",
+    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_1",
+    "server" : "172.64.166.8",
     "server_port" : 2086,
     "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
     "security" : "auto",
@@ -344,13 +177,172 @@
       "type" : "ws",
       "path" : "github.com/Alvin9999",
       "headers" : {
-        "host" : "ip1.1789034.xyz"
+        "host" : "ip2.1457230.xyz"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_2",
+    "server" : "172.64.166.2",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip2.1457230.xyz"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_3",
+    "server" : "104.19.38.12",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip14.freegradely.xyz"
       }
     }
   }, {
     "type" : "vmess",
     "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_4",
-    "server" : "104.19.32.46",
+    "server" : "104.19.46.27",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip14.freegradely.xyz"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国_4",
+    "server" : "104.26.12.31",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip1.1789034.xyz"
+      }
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_1",
+    "server" : "104.17.215.18",
+    "server_port" : 443,
+    "password" : "4732adfa16c6450bbef87264e41332db",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/6b777a91",
+      "headers" : {
+        "host" : "jobscareerforstudent.com"
+      }
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇫🇷_FR_法国",
+    "server" : "146.19.106.89",
+    "server_port" : 8388,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "M2MxYWZm",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_5",
+    "server" : "104.19.46.22",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip13.freegradely.xyz"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "server" : "120.232.153.27",
+    "server_port" : 58831,
+    "uuid" : "418048af-a293-4b99-9b0c-98ca3580dd24",
+    "security" : "auto",
+    "alter_id" : 64
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_5",
+    "server" : "38.86.135.117",
+    "server_port" : 3389,
+    "method" : "aes-256-gcm",
+    "password" : "Y6R9pAtvxxzmGC",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国->🏳️_unKnow_未知",
+    "server" : "jone.turbooserver.ir",
+    "server_port" : 443,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "TurbooServer=",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_6",
+    "server" : "104.26.7.132",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip14.freegradely.xyz"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_7",
+    "server" : "162.159.140.66",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip1.1789034.xyz"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_8",
+    "server" : "104.19.46.233",
     "server_port" : 2086,
     "uuid" : "29eebb60-b27b-4a9d-bba5-947763d9205e",
     "security" : "auto",
@@ -359,39 +351,23 @@
       "type" : "ws",
       "path" : "github.com/Alvin9999",
       "headers" : {
-        "host" : "ip006.3196772.xyz"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1",
-    "server" : "104.25.208.242",
-    "server_port" : 80,
-    "uuid" : "19b0c039-e131-5b52-a7c1-fb60a8340d5a",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro?ed=2048",
-      "headers" : {
-        "host" : "www.speedtest.com.農達懲востейc0ntr0l.wonkacapitano.buzz."
+        "host" : "ip005.3196772.xyz"
       }
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_11",
-    "server" : "38.110.1.12",
-    "server_port" : 3389,
+    "tag" : "🇺🇸_US_美国_6",
+    "server" : "142.202.49.122",
+    "server_port" : 9102,
     "method" : "aes-256-gcm",
-    "password" : "Y6R9pAtvxxzmGC",
+    "password" : "e4FCWrgpkji3QY",
     "multiplex" : {
       "enabled" : true
     }
   }, {
     "type" : "vmess",
-    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_5",
-    "server" : "172.64.198.249",
+    "tag" : "🇺🇸_US_美国_7",
+    "server" : "104.20.19.168",
     "server_port" : 2086,
     "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
     "security" : "auto",
@@ -400,22 +376,132 @@
       "type" : "ws",
       "path" : "github.com/Alvin9999",
       "headers" : {
-        "host" : "ip1.1457230.xyz"
+        "host" : "ip1.1789034.xyz"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国_8",
+    "server" : "104.26.5.56",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip1.1789034.xyz"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国_9",
+    "server" : "172.67.71.187",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip1.1789034.xyz"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_9",
+    "server" : "104.19.55.49",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip2.1457230.xyz"
+      }
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_10",
+    "server" : "38.110.1.46",
+    "server_port" : 6679,
+    "method" : "aes-256-gcm",
+    "password" : "TEzjfAYq2IjtuoS",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_10",
+    "server" : "104.19.59.89",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip14.freegradely.xyz"
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国_11",
+    "server" : "104.26.5.145",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip1.1789034.xyz"
       }
     }
   }, {
     "type" : "vmess",
     "tag" : "🇺🇸_US_美国_12",
-    "server" : "104.16.67.38",
+    "server" : "104.22.37.243",
     "server_port" : 2086,
-    "uuid" : "950db6aa-4926-4616-816e-ec0312dcb87b",
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
     "security" : "auto",
     "alter_id" : 0,
     "transport" : {
       "type" : "ws",
-      "path" : "/jahfkjha.cfd/linkws",
+      "path" : "github.com/Alvin9999",
       "headers" : {
-        "host" : "hyfhhg.jadovah977.workers.dev"
+        "host" : "ip1.1789034.xyz"
+      }
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_13",
+    "server" : "38.86.135.117",
+    "server_port" : 9090,
+    "method" : "aes-256-gcm",
+    "password" : "Y6R9pAtvxxzmGC",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇨🇦_CA_加拿大_11",
+    "server" : "172.64.167.25",
+    "server_port" : 2086,
+    "uuid" : "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "github.com/Alvin9999",
+      "headers" : {
+        "host" : "ip2.1457230.xyz"
       }
     }
   }, {

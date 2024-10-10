@@ -71,216 +71,21 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国->🇫🇷_FR_法国", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇦_UA_乌克兰", "🇨🇦_CA_加拿大", "🇺🇸_US_美国->🇮🇪_IE_爱尔兰", "🇺🇸_US_美国->🇩🇪_DE_德国_1", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇺🇸_US_美国->🇩🇪_DE_德国_2", "🇺🇸_US_美国_4", "🇨🇦_CA_加拿大_1", "🇺🇸_US_美国_5", "🇺🇸_US_美国->🇩🇪_DE_德国_3", "🇺🇸_US_美国_6", "🇺🇸_US_美国_7", "🇬🇧_GB_英国", "🇺🇸_US_美国_8", "🇺🇸_US_美国_9", "🇺🇸_US_美国_10", "🇺🇸_US_美国_11", "🇺🇸_US_美国->🇮🇪_IE_爱尔兰_1", "🇷🇺_RU_俄罗斯", "🇷🇺_RU_俄罗斯_1", "🇺🇸_US_美国_12", "🇺🇸_US_美国_13", "🇺🇸_US_美国_14", "🇲🇩_MD_摩尔多瓦->🇺🇸_US_美国", "🇺🇸_US_美国_15", "🇺🇸_US_美国_16", "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国_17" ],
+    "outbounds" : [ "url-test", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯", "🇮🇷_IR_伊朗->🇺🇸_US_美国", "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国", "🇺🇸_US_美国_4", "🇳🇱_NL_荷兰", "🇺🇸_US_美国_5", "🇺🇸_US_美国->🇩🇪_DE_德国_1" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国->🇫🇷_FR_法国", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇦_UA_乌克兰", "🇨🇦_CA_加拿大", "🇺🇸_US_美国->🇮🇪_IE_爱尔兰", "🇺🇸_US_美国->🇩🇪_DE_德国_1", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇺🇸_US_美国->🇩🇪_DE_德国_2", "🇺🇸_US_美国_4", "🇨🇦_CA_加拿大_1", "🇺🇸_US_美国_5", "🇺🇸_US_美国->🇩🇪_DE_德国_3", "🇺🇸_US_美国_6", "🇺🇸_US_美国_7", "🇬🇧_GB_英国", "🇺🇸_US_美国_8", "🇺🇸_US_美国_9", "🇺🇸_US_美国_10", "🇺🇸_US_美国_11", "🇺🇸_US_美国->🇮🇪_IE_爱尔兰_1", "🇷🇺_RU_俄罗斯", "🇷🇺_RU_俄罗斯_1", "🇺🇸_US_美国_12", "🇺🇸_US_美国_13", "🇺🇸_US_美国_14", "🇲🇩_MD_摩尔多瓦->🇺🇸_US_美国", "🇺🇸_US_美国_15", "🇺🇸_US_美国_16", "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国_17" ],
+    "outbounds" : [ "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯", "🇮🇷_IR_伊朗->🇺🇸_US_美国", "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国", "🇺🇸_US_美国_4", "🇳🇱_NL_荷兰", "🇺🇸_US_美国_5", "🇺🇸_US_美国->🇩🇪_DE_德国_1" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇫🇷_FR_法国",
-    "server" : "151.101.2.228",
-    "server_port" : 80,
-    "uuid" : "f73b2a1c-d38a-46f5-8032-d605a14c05d5",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048",
-      "headers" : {
-        "host" : "53.ir"
-      }
-    }
-  }, {
-    "type" : "vless",
     "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国",
-    "server" : "162.19.228.119",
-    "server_port" : 80,
-    "uuid" : "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/http"
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "104.17.147.22",
-    "server_port" : 2052,
-    "uuid" : "53408d32-4ed2-4343-85b4-3fdd9e5c1b09",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless#@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi",
-      "headers" : {
-        "host" : "sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi2.v2vless.sitespeedtest.net"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_1",
-    "server" : "69.50.95.203",
-    "server_port" : 8119,
-    "method" : "aes-256-gcm",
-    "password" : "cdBIDV42DCwnfIN",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇦_UA_乌克兰",
-    "server" : "178.211.130.142",
-    "server_port" : 32638,
-    "method" : "aes-128-gcm",
-    "password" : "ftUnVhcuB7K7sjaqj4gcT+TnEE2MJN3iWlFK0wWQlBA=",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇨🇦_CA_加拿大",
-    "server" : "142.4.216.225",
-    "server_port" : 80,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "JIhN6rBKkaEboLNXVSv5rq",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国->🇮🇪_IE_爱尔兰",
-    "server" : "3.97.171.112",
-    "server_port" : 22222,
-    "password" : "telegram-id-directvpn",
-    "tls" : {
-      "enabled" : true,
-      "insecure" : false
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_1",
-    "server" : "104.17.148.22",
-    "server_port" : 2052,
-    "uuid" : "53408d32-4ed2-4343-85b4-3fdd9e5c1b09",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless#@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi",
-      "headers" : {
-        "host" : "sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.fi2.v2vless.sitespeedtest.net"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_2",
-    "server" : "66.235.200.94",
-    "server_port" : 80,
-    "uuid" : "12d6cf82-9eee-4b01-b1bb-e1c1a437a162",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro?ed=2048",
-      "headers" : {
-        "host" : "dl2.wwwiransell.ir.саетcанту.烏克爾.yркельп.wonkacapitano.buzz."
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_3",
-    "server" : "139.64.165.153",
-    "server_port" : 9101,
-    "method" : "aes-256-gcm",
-    "password" : "e4FCWrgpkji3QY",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_2",
-    "server" : "151.101.130.228",
-    "server_port" : 80,
-    "uuid" : "f73b2a1c-d38a-46f5-8032-d605a14c05d5",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048",
-      "headers" : {
-        "host" : "53.ir"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_4",
-    "server" : "104.18.138.161",
-    "server_port" : 80,
-    "uuid" : "12d6cf82-9eee-4b01-b1bb-e1c1a437a162",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro?ed=2048",
-      "headers" : {
-        "host" : "dl2.wwwiransell.ir.саетcанту.烏克爾.yркельп.wonkacapitano.buzz."
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇨🇦_CA_加拿大_1",
-    "server" : "23.154.136.176",
-    "server_port" : 8118,
-    "method" : "aes-256-gcm",
-    "password" : "cdBIDV42DCwnfIN",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_5",
-    "server" : "69.50.95.203",
-    "server_port" : 5498,
-    "method" : "aes-256-gcm",
-    "password" : "lGqs95QkFHo2NV",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_3",
-    "server" : "151.101.193.140",
-    "server_port" : 80,
-    "uuid" : "cc11d2fd-24b8-4da4-b12b-59edf56bcd79",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048",
-      "headers" : {
-        "host" : "Upload.edu"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_6",
     "server" : "151.101.1.140",
     "server_port" : 80,
-    "uuid" : "cc11d2fd-24b8-4da4-b12b-59edf56bcd79",
+    "uuid" : "b990ae01-5d9f-4008-849c-8c0ef84b85a9",
     "tls" : {
       "enabled" : true
     },
@@ -288,23 +93,39 @@
       "type" : "ws",
       "path" : "/Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048",
       "headers" : {
-        "host" : "Upload.edu"
+        "host" : "Assdnmkilp.net"
       }
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_7",
-    "server" : "69.50.92.111",
-    "server_port" : 8888,
+    "tag" : "🇺🇸_US_美国",
+    "server" : "38.68.134.9",
+    "server_port" : 5001,
     "method" : "aes-256-gcm",
     "password" : "Y6R9pAtvxxzmGC",
     "multiplex" : {
       "enabled" : true
     }
   }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_1",
+    "server" : "151.101.129.140",
+    "server_port" : 80,
+    "uuid" : "b990ae01-5d9f-4008-849c-8c0ef84b85a9",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048",
+      "headers" : {
+        "host" : "Assdnmkilp.net"
+      }
+    }
+  }, {
     "type" : "trojan",
-    "tag" : "🇬🇧_GB_英国",
-    "server" : "35.177.219.234",
+    "tag" : "🇺🇸_US_美国_2",
+    "server" : "18.156.90.44",
     "server_port" : 22222,
     "password" : "telegram-id-privatevpns",
     "tls" : {
@@ -312,51 +133,102 @@
       "alpn" : [ "http/1.1" ]
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_8",
-    "server" : "69.50.95.203",
-    "server_port" : 6679,
-    "method" : "aes-256-gcm",
-    "password" : "TEzjfAYq2IjtuoS",
-    "multiplex" : {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国_3",
+    "server" : "18.170.144.229",
+    "server_port" : 22222,
+    "password" : "telegram-id-privatevpns",
+    "tls" : {
+      "enabled" : true,
+      "alpn" : [ "http/1.1" ]
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国->🇷🇺_RU_俄罗斯",
+    "server" : "104.17.148.22",
+    "server_port" : 2086,
+    "uuid" : "04fb4d60-4c8a-47ea-9803-ba82b542783e",
+    "tls" : {
       "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/vless#@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi",
+      "headers" : {
+        "host" : "sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.ca1.v2vless.sitespeedtest.net"
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇮🇷_IR_伊朗->🇺🇸_US_美国",
+    "server" : "91.186.193.65",
+    "server_port" : 1433,
+    "uuid" : "b6e2d4ce-d035-4e36-8043-a721219f68f5",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/"
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国",
+    "server" : "190.93.247.152",
+    "server_port" : 80,
+    "uuid" : "572e7789-76af-51c8-928b-e327d862f16c",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/vless",
+      "headers" : {
+        "host" : "Uk1.vless.site."
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_4",
+    "server" : "172.67.132.209",
+    "server_port" : 2095,
+    "uuid" : "590cdf91-08c0-467a-eede-54633413589a",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048",
+      "headers" : {
+        "host" : "www.speedtest.net.Jaricopen.Shop."
+      }
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_9",
-    "server" : "69.50.95.165",
-    "server_port" : 5499,
-    "method" : "aes-256-gcm",
-    "password" : "lGqs95QkFHo2NV",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_10",
-    "server" : "139.64.165.101",
-    "server_port" : 8119,
-    "method" : "aes-256-gcm",
-    "password" : "cdBIDV42DCwnfIN",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_11",
-    "server" : "167.88.62.50",
-    "server_port" : 1723,
+    "tag" : "🇳🇱_NL_荷兰",
+    "server" : "45.144.48.63",
+    "server_port" : 57456,
     "method" : "chacha20-ietf-poly1305",
-    "password" : "Gru.a-XgKzY+=Nl_",
+    "password" : "d3837224ed465f00",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_5",
+    "server" : "38.68.134.9",
+    "server_port" : 8009,
+    "method" : "aes-256-gcm",
+    "password" : "XKFKl2rULjIp74",
     "multiplex" : {
       "enabled" : true
     }
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇮🇪_IE_爱尔兰_1",
-    "server" : "151.101.194.228",
+    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_1",
+    "server" : "151.101.193.140",
     "server_port" : 80,
-    "uuid" : "f73b2a1c-d38a-46f5-8032-d605a14c05d5",
+    "uuid" : "b990ae01-5d9f-4008-849c-8c0ef84b85a9",
     "tls" : {
       "enabled" : true
     },
@@ -364,132 +236,7 @@
       "type" : "ws",
       "path" : "/Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048",
       "headers" : {
-        "host" : "53.ir"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯",
-    "server" : "194.87.45.189",
-    "server_port" : 40076,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "sOJ7Wo6yHqWQv8FUEq3BKV",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯_1",
-    "server" : "217.30.10.18",
-    "server_port" : 9019,
-    "method" : "aes-256-cfb",
-    "password" : "GA9KzeEgvfxNrgmM",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_12",
-    "server" : "139.64.165.101",
-    "server_port" : 8090,
-    "method" : "aes-256-gcm",
-    "password" : "PCnnH6SQSnfoS27",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_13",
-    "server" : "69.50.95.203",
-    "server_port" : 5601,
-    "method" : "aes-256-gcm",
-    "password" : "Y6R9pAtvxxzmGC",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_14",
-    "server" : "139.64.165.153",
-    "server_port" : 6697,
-    "method" : "aes-256-gcm",
-    "password" : "TEzjfAYq2IjtuoS",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇲🇩_MD_摩尔多瓦->🇺🇸_US_美国",
-    "server" : "185.170.166.242",
-    "server_port" : 80,
-    "uuid" : "12d6cf82-9eee-4b01-b1bb-e1c1a437a162",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro?ed=2048",
-      "headers" : {
-        "host" : "dl2.wwwiransell.ir.саетcанту.烏克爾.yркельп.wonkacapitano.buzz."
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_15",
-    "server" : "104.25.122.51",
-    "server_port" : 80,
-    "uuid" : "12d6cf82-9eee-4b01-b1bb-e1c1a437a162",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro?ed=2048",
-      "headers" : {
-        "host" : "dl2.wwwiransell.ir.саетcанту.烏克爾.yркельп.wonkacapitano.buzz."
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_16",
-    "server" : "185.47.253.227",
-    "server_port" : 990,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国",
-    "server" : "193.107.48.5",
-    "server_port" : 443,
-    "uuid" : "bf7cec09-6578-4248-aa66-e3606ef26e8e",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "120.232.153.71",
-    "server_port" : 43526,
-    "uuid" : "21a9bff2-72de-4e62-93ff-8b159f66d875",
-    "security" : "auto",
-    "alter_id" : 64
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_17",
-    "server" : "104.17.147.22",
-    "server_port" : 2082,
-    "uuid" : "cecc46f0-55ce-46fb-ec65-b46eb9446e41",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=1024",
-      "headers" : {
-        "host" : "www.speedtest.net.zula.ir.Shad.ir.sHaparak.ir.torob.com.namaSha.com.namnak.com.filiMo.com.Rokna.net.teleweBion.com.iraNikala.toP."
+        "host" : "Assdnmkilp.net"
       }
     }
   }, {

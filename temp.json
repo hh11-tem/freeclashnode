@@ -71,114 +71,34 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇺🇸_US_美国", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国_1", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯", "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国_2", "🇩🇪_DE_德国", "🇩🇪_DE_德国_1", "🇷🇺_RU_俄罗斯_1", "🇩🇪_DE_德国_2", "🇵🇦_PA_巴拿马", "🇺🇸_US_美国_3", "🇺🇸_US_美国->🇩🇪_DE_德国_1", "🇩🇪_DE_德国_3", "🇺🇸_US_美国->🇺🇦_UA_乌克兰", "🇸🇪_SE_瑞典->🇹🇷_TR_土耳其", "🇺🇸_US_美国_4", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国->🇺🇦_UA_乌克兰_1", "🇸🇪_SE_瑞典->🇲🇩_MD_摩尔多瓦", "🇮🇷_IR_伊朗", "🇺🇸_US_美国->🇺🇦_UA_乌克兰_2", "🇷🇺_RU_俄罗斯_2", "🇺🇸_US_美国->🇺🇦_UA_乌克兰_3", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1", "🇩🇪_DE_德国->🇰🇷_KR_韩国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇸🇪_SE_瑞典->🇹🇷_TR_土耳其_1", "🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯", "🇩🇪_DE_德国_4", "🇷🇺_RU_俄罗斯_3", "🇺🇸_US_美国->🇩🇪_DE_德国_2" ],
+    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国->🇧🇪_BE_比利时", "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国->🇧🇪_BE_比利时_1", "🇺🇸_US_美国->🇺🇦_UA_乌克兰", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇸🇪_SE_瑞典->🇺🇸_US_美国", "🇷🇺_RU_俄罗斯_1", "🇵🇦_PA_巴拿马", "🇺🇸_US_美国->🇺🇦_UA_乌克兰_1", "🇸🇪_SE_瑞典->🇲🇩_MD_摩尔多瓦", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国->🇹🇷_TR_土耳其", "🇩🇪_DE_德国", "🇺🇸_US_美国_4", "🇺🇸_US_美国_5", "🇸🇪_SE_瑞典->🇩🇪_DE_德国", "🇷🇺_RU_俄罗斯_2", "🇺🇸_US_美国->🇧🇪_BE_比利时_2", "🇺🇸_US_美国_6", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇷🇺_RU_俄罗斯_3", "🇺🇸_US_美国_7", "🇩🇪_DE_德国_1" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国->🇨🇳_CN_中国", "🇺🇸_US_美国", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国_1", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯", "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国_2", "🇩🇪_DE_德国", "🇩🇪_DE_德国_1", "🇷🇺_RU_俄罗斯_1", "🇩🇪_DE_德国_2", "🇵🇦_PA_巴拿马", "🇺🇸_US_美国_3", "🇺🇸_US_美国->🇩🇪_DE_德国_1", "🇩🇪_DE_德国_3", "🇺🇸_US_美国->🇺🇦_UA_乌克兰", "🇸🇪_SE_瑞典->🇹🇷_TR_土耳其", "🇺🇸_US_美国_4", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国->🇺🇦_UA_乌克兰_1", "🇸🇪_SE_瑞典->🇲🇩_MD_摩尔多瓦", "🇮🇷_IR_伊朗", "🇺🇸_US_美国->🇺🇦_UA_乌克兰_2", "🇷🇺_RU_俄罗斯_2", "🇺🇸_US_美国->🇺🇦_UA_乌克兰_3", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1", "🇩🇪_DE_德国->🇰🇷_KR_韩国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇸🇪_SE_瑞典->🇹🇷_TR_土耳其_1", "🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯", "🇩🇪_DE_德国_4", "🇷🇺_RU_俄罗斯_3", "🇺🇸_US_美国->🇩🇪_DE_德国_2" ],
+    "outbounds" : [ "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国->🇧🇪_BE_比利时", "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国->🇧🇪_BE_比利时_1", "🇺🇸_US_美国->🇺🇦_UA_乌克兰", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇸🇪_SE_瑞典->🇺🇸_US_美国", "🇷🇺_RU_俄罗斯_1", "🇵🇦_PA_巴拿马", "🇺🇸_US_美国->🇺🇦_UA_乌克兰_1", "🇸🇪_SE_瑞典->🇲🇩_MD_摩尔多瓦", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇸_US_美国->🇹🇷_TR_土耳其", "🇩🇪_DE_德国", "🇺🇸_US_美国_4", "🇺🇸_US_美国_5", "🇸🇪_SE_瑞典->🇩🇪_DE_德国", "🇷🇺_RU_俄罗斯_2", "🇺🇸_US_美国->🇧🇪_BE_比利时_2", "🇺🇸_US_美国_6", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇷🇺_RU_俄罗斯_3", "🇺🇸_US_美国_7", "🇩🇪_DE_德国_1" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国",
-    "server" : "151.101.192.155",
-    "server_port" : 80,
-    "uuid" : "4b497bae-8499-45a8-ae48-d0f46e8014b2",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
-      "headers" : {
-        "host" : "dachibodoberim.net"
-      }
-    }
-  }, {
-    "type" : "trojan",
     "tag" : "🇺🇸_US_美国",
-    "server" : "185.143.232.200",
-    "server_port" : 443,
-    "password" : "dTaXAtuoQF",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/downloadgame",
-      "headers" : {
-        "host" : "nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir"
-      }
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国",
-    "server" : "185.143.234.200",
-    "server_port" : 443,
-    "password" : "dTaXAtuoQF",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/downloadgame",
-      "headers" : {
-        "host" : "nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_1",
-    "server" : "104.17.97.5",
+    "server" : "151.101.130.219",
     "server_port" : 80,
-    "uuid" : "3d197e15-d0bd-49dc-bb52-d615d88b63eb",
+    "uuid" : "c8127c55-420b-5801-966b-a0e0dc237032",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/@Daily_Cofnigs,@Daily_Cofnigs,@Daily_Cofnigs?ed=2560",
+      "path" : "/",
       "headers" : {
-        "host" : "join-daily-configs.broken-dreams.ir"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇷🇺_RU_俄罗斯",
-    "server" : "104.17.147.22",
-    "server_port" : 2086,
-    "uuid" : "efd87c13-e53e-5bfd-8d41-cb9a5ced8a75",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless#@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi",
-      "headers" : {
-        "host" : "sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.ca1.v2vless.sitespeedtest.net"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇷🇺_RU_俄罗斯",
-    "server" : "109.172.94.60",
-    "server_port" : 3030,
-    "uuid" : "ac878c7d-c2df-475d-9023-0477eea410b4",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/we",
-      "headers" : {
-        "host" : "104.25.179.79"
+        "host" : "ELiV2RaY-0.cOm"
       }
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_2",
+    "tag" : "🇺🇸_US_美国_1",
     "server" : "52.33.189.33",
     "server_port" : 443,
     "method" : "aes-256-cfb",
@@ -188,52 +108,80 @@
     }
   }, {
     "type" : "vless",
-    "tag" : "🇩🇪_DE_德国",
-    "server" : "157.90.236.4",
-    "server_port" : 29032,
-    "uuid" : "6af5ba25-ca0b-4989-9d45-22616ca44300",
+    "tag" : "🇺🇸_US_美国->🇧🇪_BE_比利时",
+    "server" : "104.26.4.226",
+    "server_port" : 2095,
+    "uuid" : "d5b51aa3-a3a7-4896-b710-cd3860b4c94f",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/www.speedtest.net-www.speedtest.net-www.speedtest.net?ed=2095chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN___chanel.join.@JOKERRVPN",
+      "headers" : {
+        "host" : "dahshjhewjqh32-18yiuadshjkdhas321-y8dayliudhsaljk321.vipvipmbl.ir."
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇷🇺_RU_俄罗斯",
+    "server" : "109.172.94.60",
+    "server_port" : 8443,
+    "uuid" : "b8e24ec7-b282-46a9-b1ed-92583b1a5120",
     "tls" : {
       "enabled" : true
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇩🇪_DE_德国_1",
-    "server" : "45.87.175.164",
-    "server_port" : 8080,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "1RWwXhwfAB5gAEozU4G2Pg",
-    "multiplex" : {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国->🇧🇪_BE_比利时_1",
+    "server" : "172.67.73.226",
+    "server_port" : 2095,
+    "uuid" : "d5b51aa3-a3a7-4896-b710-cd3860b4c94f",
+    "tls" : {
       "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/www.speedtest.net-www.speedtest.net-www.speedtest.net?ed=2095chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN___chanel.join.@JOKERRVPN",
+      "headers" : {
+        "host" : "dahshjhewjqh32-18yiuadshjkdhas321-y8dayliudhsaljk321.vipvipmbl.ir."
+      }
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯_1",
-    "server" : "217.30.10.18",
-    "server_port" : 9060,
-    "method" : "aes-256-cfb",
-    "password" : "ueLXVkvh4hckhErQ",
-    "multiplex" : {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国->🇺🇦_UA_乌克兰",
+    "server" : "151.101.194.219",
+    "server_port" : 80,
+    "uuid" : "c8127c55-420b-5801-966b-a0e0dc237032",
+    "tls" : {
       "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/",
+      "headers" : {
+        "host" : "ELiV2RaY-0.cOm"
+      }
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇩🇪_DE_德国_2",
-    "server" : "45.87.175.154",
-    "server_port" : 8080,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "cvII85TrW6n0OGyfpHVS1u",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇵🇦_PA_巴拿马",
-    "server" : "138.186.142.4",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_2",
+    "server" : "151.101.192.155",
+    "server_port" : 80,
+    "uuid" : "60483bc2-ba33-46aa-bedd-20056a505aca",
+    "tls" : {
+      "enabled" : true,
+      "utls" : {
+        "enabled" : true,
+        "fingerprint" : "chrome"
+      }
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480",
+      "headers" : {
+        "host" : "UNLIMITEDDEV.channel-telegram-1.ir"
+      }
     }
   }, {
     "type" : "vless",
@@ -252,52 +200,11 @@
       }
     }
   }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_1",
-    "server" : "185.143.233.200",
-    "server_port" : 443,
-    "password" : "dTaXAtuoQF",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/downloadgame",
-      "headers" : {
-        "host" : "nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇩🇪_DE_德国_3",
-    "server" : "45.87.175.178",
-    "server_port" : 8080,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "cvII85TrW6n0OGyfpHVS1u",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇺🇦_UA_乌克兰",
-    "server" : "151.101.130.219",
+    "tag" : "🇸🇪_SE_瑞典->🇺🇸_US_美国",
+    "server" : "185.146.173.98",
     "server_port" : 80,
-    "uuid" : "b2e07c41-c240-5bf3-b904-dc40852c780e",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "headers" : {
-        "host" : "JoinBede-ELiV2ray.ai"
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇸🇪_SE_瑞典->🇹🇷_TR_土耳其",
-    "server" : "185.146.173.42",
-    "server_port" : 80,
-    "uuid" : "c2483eb9-0a73-5c60-be30-720926aa00d3",
+    "uuid" : "e0d272b8-60df-5447-8009-ba324a09beff",
     "tls" : {
       "enabled" : true
     },
@@ -305,40 +212,43 @@
       "type" : "ws",
       "path" : "/vless",
       "headers" : {
-        "host" : "Fr2.vless.site."
+        "host" : "Uk2.vless.site."
       }
     }
   }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国_4",
-    "server" : "3.76.127.3",
-    "server_port" : 22222,
-    "password" : "telegram-id-privatevpns",
-    "tls" : {
-      "enabled" : true,
-      "alpn" : [ "http/1.1" ]
+    "type" : "shadowsocks",
+    "tag" : "🇷🇺_RU_俄罗斯_1",
+    "server" : "193.124.22.253",
+    "server_port" : 33068,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "3MgIhqwp4pjM8SKwixNkYZ",
+    "multiplex" : {
+      "enabled" : true
     }
   }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "183.236.48.163",
-    "server_port" : 58831,
-    "uuid" : "418048af-a293-4b99-9b0c-98ca3580dd24",
-    "security" : "auto",
-    "alter_id" : 64
+    "type" : "shadowsocks",
+    "tag" : "🇵🇦_PA_巴拿马",
+    "server" : "138.186.142.4",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
   }, {
     "type" : "vless",
     "tag" : "🇺🇸_US_美国->🇺🇦_UA_乌克兰_1",
-    "server" : "151.101.2.219",
+    "server" : "151.101.66.219",
     "server_port" : 80,
-    "uuid" : "b2e07c41-c240-5bf3-b904-dc40852c780e",
+    "uuid" : "c8127c55-420b-5801-966b-a0e0dc237032",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
+      "path" : "/",
       "headers" : {
-        "host" : "JoinBede-ELiV2ray.ai"
+        "host" : "ELiV2RaY-0.cOm"
       }
     }
   }, {
@@ -359,42 +269,114 @@
     }
   }, {
     "type" : "vmess",
-    "tag" : "🇮🇷_IR_伊朗",
-    "server" : "2.182.174.21",
-    "server_port" : 9090,
-    "uuid" : "fddf88ed-8c70-42ad-c12e-5f40841e6f00",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "server" : "183.236.48.163",
+    "server_port" : 58831,
+    "uuid" : "418048af-a293-4b99-9b0c-98ca3580dd24",
     "security" : "auto",
-    "alter_id" : 0
+    "alter_id" : 64
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇺🇦_UA_乌克兰_2",
-    "server" : "151.101.3.8",
+    "tag" : "🇺🇸_US_美国->🇹🇷_TR_土耳其",
+    "server" : "104.19.198.103",
     "server_port" : 80,
-    "uuid" : "08552c15-8cac-45d1-b911-a474576b1211",
+    "uuid" : "243ff879-b317-4430-894e-767a131db2ca",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=2048",
+      "path" : "/vless",
       "headers" : {
-        "host" : "barkatc2.ir"
+        "host" : "tr1-vless.ctunnel.xyz"
       }
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯_2",
-    "server" : "193.124.22.253",
-    "server_port" : 33068,
+    "tag" : "🇩🇪_DE_德国",
+    "server" : "45.87.175.164",
+    "server_port" : 8080,
     "method" : "chacha20-ietf-poly1305",
-    "password" : "3MgIhqwp4pjM8SKwixNkYZ",
+    "password" : "1RWwXhwfAB5gAEozU4G2Pg",
     "multiplex" : {
       "enabled" : true
     }
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇺🇦_UA_乌克兰_3",
-    "server" : "151.101.66.219",
+    "tag" : "🇺🇸_US_美国_4",
+    "server" : "104.17.147.22",
+    "server_port" : 2086,
+    "uuid" : "efd87c13-e53e-5bfd-8d41-cb9a5ced8a75",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/vless#@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi",
+      "headers" : {
+        "host" : "sm.zula.ir.g.varzeshi3.ir.fgil.hm.deba.ka.らわなさmaxsskllppae.plakrovel.melocvo.zmaxer.napovafoodka.com.ca1.v2vless.sitespeedtest.net"
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_5",
+    "server" : "151.101.128.155",
+    "server_port" : 80,
+    "uuid" : "651d818e-4d5c-4180-a295-1db7a8fabc71",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
+      "headers" : {
+        "host" : "Berim3arekar.net"
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇸🇪_SE_瑞典->🇩🇪_DE_德国",
+    "server" : "185.146.173.58",
+    "server_port" : 8080,
+    "uuid" : "26757718-95ee-406d-8c9a-bb5c4cfdd9ac",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/servernett",
+      "headers" : {
+        "host" : "lc80.lebasnoo.ir."
+      }
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇷🇺_RU_俄罗斯_2",
+    "server" : "194.87.31.160",
+    "server_port" : 8081,
+    "uuid" : "a7e00c2f-411a-438f-9119-0f022a85a5e3",
+    "security" : "auto",
+    "alter_id" : 0
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国->🇧🇪_BE_比利时_2",
+    "server" : "104.26.5.226",
+    "server_port" : 2095,
+    "uuid" : "d5b51aa3-a3a7-4896-b710-cd3860b4c94f",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/www.speedtest.net-www.speedtest.net-www.speedtest.net?ed=2095chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN___chanel.join.@JOKERRVPN",
+      "headers" : {
+        "host" : "dahshjhewjqh32-18yiuadshjkdhas321-y8dayliudhsaljk321.vipvipmbl.ir."
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_6",
+    "server" : "151.101.2.219",
     "server_port" : 80,
     "uuid" : "b2e07c41-c240-5bf3-b904-dc40852c780e",
     "tls" : {
@@ -407,32 +389,6 @@
       }
     }
   }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1",
-    "server" : "151.101.64.155",
-    "server_port" : 80,
-    "uuid" : "4b497bae-8499-45a8-ae48-d0f46e8014b2",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048",
-      "headers" : {
-        "host" : "dachibodoberim.net"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇩🇪_DE_德国->🇰🇷_KR_韩国",
-    "server" : "beesyar.org",
-    "server_port" : 8080,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "4a2rfixophdjffa8KVA4Aa",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
     "type" : "vmess",
     "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
     "server" : "183.236.51.23",
@@ -440,48 +396,6 @@
     "uuid" : "418048af-a293-4b99-9b0c-98ca3580dd24",
     "security" : "auto",
     "alter_id" : 64
-  }, {
-    "type" : "vless",
-    "tag" : "🇸🇪_SE_瑞典->🇹🇷_TR_土耳其_1",
-    "server" : "185.146.173.98",
-    "server_port" : 80,
-    "uuid" : "e0d272b8-60df-5447-8009-ba324a09beff",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless",
-      "headers" : {
-        "host" : "Uk2.vless.site."
-      }
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯",
-    "server" : "185.146.173.38",
-    "server_port" : 80,
-    "uuid" : "44912129-199f-5742-897a-442d8960dd15",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/vless",
-      "headers" : {
-        "host" : "Pl1.vless.site."
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇩🇪_DE_德国_4",
-    "server" : "45.87.175.171",
-    "server_port" : 8080,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "cvII85TrW6n0OGyfpHVS1u",
-    "multiplex" : {
-      "enabled" : true
-    }
   }, {
     "type" : "shadowsocks",
     "tag" : "🇷🇺_RU_俄罗斯_3",
@@ -493,20 +407,30 @@
       "enabled" : true
     }
   }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_2",
-    "server" : "185.143.235.200",
-    "server_port" : 443,
-    "password" : "dTaXAtuoQF",
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_7",
+    "server" : "162.159.194.75",
+    "server_port" : 8880,
+    "uuid" : "da95ed3b-91b3-4dbc-b74a-cee7745822c6",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/downloadgame",
+      "path" : "/www.speedtest.net-www.speedtest.net-www.speedtest.net?ed=8880chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN_chanel.join.@JOKERRVPN___chanel.join.@JOKERRVPN",
       "headers" : {
-        "host" : "nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir"
+        "host" : "dahshjhewjqh32-18yiuadshjkdhas321-y8dayliudhsaljk321.vipvipmbl.ir."
       }
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇩🇪_DE_德国_1",
+    "server" : "45.87.175.154",
+    "server_port" : 8080,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "cvII85TrW6n0OGyfpHVS1u",
+    "multiplex" : {
+      "enabled" : true
     }
   }, {
     "type" : "direct",

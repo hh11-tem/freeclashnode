@@ -71,29 +71,48 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯" ],
+    "outbounds" : [ "url-test", "🇨🇭_CH_瑞士->🇨🇳_CN_中国", "🇦🇹_AT_奥地利->🇺🇸_US_美国", "🇺🇸_US_美国" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯" ],
+    "outbounds" : [ "🇨🇭_CH_瑞士->🇨🇳_CN_中国", "🇦🇹_AT_奥地利->🇺🇸_US_美国", "🇺🇸_US_美国" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
-    "type" : "vless",
-    "tag" : "🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯",
-    "server" : "185.133.35.118",
-    "server_port" : 80,
-    "uuid" : "85a15603-7fb2-4c53-967c-4e3c63523a41",
-    "tls" : {
+    "type" : "shadowsocks",
+    "tag" : "🇨🇭_CH_瑞士->🇨🇳_CN_中国",
+    "server" : "84.17.53.160",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
       "enabled" : true
-    },
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇦🇹_AT_奥地利->🇺🇸_US_美国",
+    "server" : "192.36.61.59",
+    "server_port" : 990,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国",
+    "server" : "190.93.245.230",
+    "server_port" : 2086,
+    "uuid" : "3fd7b958-2161-46e1-b6fc-bd6bb2165312",
+    "security" : "auto",
+    "alter_id" : 0,
     "transport" : {
       "type" : "ws",
-      "path" : "/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2048",
+      "path" : "/",
       "headers" : {
-        "host" : "Www.speedtest.net.sPeedtest2.sbs."
+        "host" : "shs.xiaoqi666.xyz"
       }
     }
   }, {

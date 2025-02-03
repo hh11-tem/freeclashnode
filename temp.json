@@ -71,18 +71,28 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇨🇭_CH_瑞士->🇨🇳_CN_中国", "🇦🇹_AT_奥地利->🇺🇸_US_美国", "🇺🇸_US_美国" ],
+    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇨🇭_CH_瑞士", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇳🇱_NL_荷兰" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇨🇭_CH_瑞士->🇨🇳_CN_中国", "🇦🇹_AT_奥地利->🇺🇸_US_美国", "🇺🇸_US_美国" ],
+    "outbounds" : [ "🇺🇸_US_美国", "🇨🇭_CH_瑞士", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇳🇱_NL_荷兰" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇨🇭_CH_瑞士->🇨🇳_CN_中国",
+    "tag" : "🇺🇸_US_美国",
+    "server" : "34.215.210.60",
+    "server_port" : 443,
+    "method" : "aes-256-cfb",
+    "password" : "amazonskr05",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇨🇭_CH_瑞士",
     "server" : "84.17.53.160",
     "server_port" : 989,
     "method" : "aes-256-cfb",
@@ -91,29 +101,24 @@
       "enabled" : true
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇦🇹_AT_奥地利->🇺🇸_US_美国",
-    "server" : "192.36.61.59",
-    "server_port" : 990,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
+    "type" : "trojan",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
+    "server" : "219.135.231.205",
+    "server_port" : 21019,
+    "password" : "20a84ebf-9341-4f5f-8245-3975e2fdeee5",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
     }
   }, {
-    "type" : "vmess",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "190.93.245.230",
-    "server_port" : 2086,
-    "uuid" : "3fd7b958-2161-46e1-b6fc-bd6bb2165312",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/",
-      "headers" : {
-        "host" : "shs.xiaoqi666.xyz"
-      }
+    "type" : "shadowsocks",
+    "tag" : "🇳🇱_NL_荷兰",
+    "server" : "193.29.139.189",
+    "server_port" : 8080,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "cvII85TrW6n0OGyfpHVS1u",
+    "multiplex" : {
+      "enabled" : true
     }
   }, {
     "type" : "direct",

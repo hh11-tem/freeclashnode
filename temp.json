@@ -71,111 +71,49 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国->🇷🇺_RU_俄罗斯", "🇺🇸_US_美国", "🇷🇺_RU_俄罗斯", "🇫🇷_FR_法国", "🇺🇸_US_美国_1", "🇩🇰_DK_丹麦", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇲🇩_MD_摩尔多瓦", "🇷🇺_RU_俄罗斯_1", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国_2", "🇷🇺_RU_俄罗斯_2", "🇺🇸_US_美国_3", "🇺🇦_UA_乌克兰", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国", "🇺🇸_US_美国->🇺🇦_UA_乌克兰", "🇺🇸_US_美国_4", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇺🇸_US_美国_5", "🇷🇺_RU_俄罗斯_3", "🇨🇳_CN_中国->🇺🇸_US_美国_2", "🇺🇸_US_美国->🇨🇳_CN_中国_1", "🇷🇺_RU_俄罗斯_4", "🇺🇦_UA_乌克兰_1", "🇷🇺_RU_俄罗斯_5", "🇬🇧_GB_英国", "🇺🇸_US_美国->🇫🇷_FR_法国", "🇷🇺_RU_俄罗斯_6", "🇺🇸_US_美国_6", "🇷🇴_RO_罗马尼亚", "🇺🇸_US_美国_7", "🇮🇹_IT_意大利", "🇺🇸_US_美国_8" ],
+    "outbounds" : [ "url-test", "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国_2", "🇺🇸_US_美国->🇩🇪_DE_德国_1", "🇷🇺_RU_俄罗斯_1", "🇺🇸_US_美国_3", "🇺🇸_US_美国_4", "🇮🇹_IT_意大利->🇺🇸_US_美国", "🇺🇸_US_美国->🇩🇪_DE_德国_2", "🇷🇺_RU_俄罗斯_2", "🇺🇦_UA_乌克兰", "🇺🇸_US_美国->🇫🇷_FR_法国", "🇺🇸_US_美国_5", "🇳🇱_NL_荷兰->🇺🇸_US_美国", "🇺🇸_US_美国->🇩🇪_DE_德国_3", "🇮🇳_IN_印度", "🇷🇺_RU_俄罗斯_3", "🇷🇺_RU_俄罗斯_4", "🇺🇸_US_美国->🇫🇷_FR_法国_1", "🇮🇪_IE_爱尔兰", "🇮🇳_IN_印度_1", "🇷🇺_RU_俄罗斯_5", "🇬🇧_GB_英国", "🇷🇺_RU_俄罗斯_6" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国->🇷🇺_RU_俄罗斯", "🇺🇸_US_美国", "🇷🇺_RU_俄罗斯", "🇫🇷_FR_法国", "🇺🇸_US_美国_1", "🇩🇰_DK_丹麦", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇲🇩_MD_摩尔多瓦", "🇷🇺_RU_俄罗斯_1", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国_2", "🇷🇺_RU_俄罗斯_2", "🇺🇸_US_美国_3", "🇺🇦_UA_乌克兰", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国", "🇺🇸_US_美国->🇺🇦_UA_乌克兰", "🇺🇸_US_美国_4", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇺🇸_US_美国_5", "🇷🇺_RU_俄罗斯_3", "🇨🇳_CN_中国->🇺🇸_US_美国_2", "🇺🇸_US_美国->🇨🇳_CN_中国_1", "🇷🇺_RU_俄罗斯_4", "🇺🇦_UA_乌克兰_1", "🇷🇺_RU_俄罗斯_5", "🇬🇧_GB_英国", "🇺🇸_US_美国->🇫🇷_FR_法国", "🇷🇺_RU_俄罗斯_6", "🇺🇸_US_美国_6", "🇷🇴_RO_罗马尼亚", "🇺🇸_US_美国_7", "🇮🇹_IT_意大利", "🇺🇸_US_美国_8" ],
+    "outbounds" : [ "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国_2", "🇺🇸_US_美国->🇩🇪_DE_德国_1", "🇷🇺_RU_俄罗斯_1", "🇺🇸_US_美国_3", "🇺🇸_US_美国_4", "🇮🇹_IT_意大利->🇺🇸_US_美国", "🇺🇸_US_美国->🇩🇪_DE_德国_2", "🇷🇺_RU_俄罗斯_2", "🇺🇦_UA_乌克兰", "🇺🇸_US_美国->🇫🇷_FR_法国", "🇺🇸_US_美国_5", "🇳🇱_NL_荷兰->🇺🇸_US_美国", "🇺🇸_US_美国->🇩🇪_DE_德国_3", "🇮🇳_IN_印度", "🇷🇺_RU_俄罗斯_3", "🇷🇺_RU_俄罗斯_4", "🇺🇸_US_美国->🇫🇷_FR_法国_1", "🇮🇪_IE_爱尔兰", "🇮🇳_IN_印度_1", "🇷🇺_RU_俄罗斯_5", "🇬🇧_GB_英国", "🇷🇺_RU_俄罗斯_6" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国->🇷🇺_RU_俄罗斯",
-    "server" : "54.212.56.86",
-    "server_port" : 443,
+    "tag" : "🇷🇺_RU_俄罗斯",
+    "server" : "217.30.10.18",
+    "server_port" : 9040,
     "method" : "aes-256-cfb",
-    "password" : "amazonskr05",
+    "password" : "p9z5BVADH2YFs3MN",
     "multiplex" : {
       "enabled" : true
     }
   }, {
     "type" : "shadowsocks",
     "tag" : "🇺🇸_US_美国",
-    "server" : "34.221.167.203",
-    "server_port" : 443,
-    "method" : "aes-256-cfb",
-    "password" : "amazonskr05",
+    "server" : "38.68.135.239",
+    "server_port" : 7307,
+    "method" : "aes-256-gcm",
+    "password" : "FoOiGlkAA9yPEGP",
     "multiplex" : {
       "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯",
-    "server" : "217.30.10.18",
-    "server_port" : 9088,
-    "method" : "aes-256-cfb",
-    "password" : "f8npKgNzdkss2ytn",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇫🇷_FR_法国",
-    "server" : "141.11.21.117",
-    "server_port" : 4003,
-    "uuid" : "5cdf37c1-0d2e-40c7-a070-9dd1faa511f8",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "tls"
     }
   }, {
     "type" : "shadowsocks",
     "tag" : "🇺🇸_US_美国_1",
-    "server" : "54.187.27.197",
-    "server_port" : 443,
-    "method" : "aes-256-cfb",
-    "password" : "amazonskr05",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇩🇰_DK_丹麦",
-    "server" : "185.186.79.53",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国",
-    "server" : "35.87.114.59",
-    "server_port" : 443,
-    "method" : "aes-256-cfb",
-    "password" : "amazonskr05",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇲🇩_MD_摩尔多瓦",
-    "server" : "91.132.94.200",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯_1",
-    "server" : "217.30.10.18",
-    "server_port" : 9025,
-    "method" : "aes-256-cfb",
-    "password" : "XPtzA9sCug3SPR4c",
+    "server" : "38.68.135.239",
+    "server_port" : 2375,
+    "method" : "aes-256-gcm",
+    "password" : "faBAoD54k87UJG7",
     "multiplex" : {
       "enabled" : true
     }
   }, {
     "type" : "vmess",
     "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国",
-    "server" : "151.101.0.155",
+    "server" : "join.ISVvpn.fastly80-3.hosting-ip.com",
     "server_port" : 80,
     "uuid" : "ca387597-d79e-48c2-89a7-e2dc66a88a70",
     "security" : "auto",
@@ -190,7 +128,52 @@
   }, {
     "type" : "shadowsocks",
     "tag" : "🇺🇸_US_美国_2",
-    "server" : "44.243.30.0",
+    "server" : "34.221.167.203",
+    "server_port" : 443,
+    "method" : "aes-256-cfb",
+    "password" : "amazonskr05",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_1",
+    "server" : "151.101.0.155",
+    "server_port" : 80,
+    "uuid" : "ca387597-d79e-48c2-89a7-e2dc66a88a70",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/racevpn",
+      "headers" : {
+        "host" : "telegram-isvvpn.ir"
+      }
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇷🇺_RU_俄罗斯_1",
+    "server" : "217.30.10.18",
+    "server_port" : 9006,
+    "method" : "aes-256-cfb",
+    "password" : "FAdUvMJUq5vDgKEq",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_3",
+    "server" : "38.68.135.239",
+    "server_port" : 3306,
+    "method" : "aes-256-gcm",
+    "password" : "Y6R9pAtvxxzmGC",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇺🇸_US_美国_4",
+    "server" : "54.190.43.178",
     "server_port" : 443,
     "method" : "aes-256-cfb",
     "password" : "amazonskr05",
@@ -199,21 +182,30 @@
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯_2",
-    "server" : "217.30.10.18",
-    "server_port" : 9026,
+    "tag" : "🇮🇹_IT_意大利->🇺🇸_US_美国",
+    "server" : "37.143.129.230",
+    "server_port" : 989,
     "method" : "aes-256-cfb",
-    "password" : "QWDDvVE9npNurQfA",
+    "password" : "f8f7aCzcPKbsF8p3",
     "multiplex" : {
       "enabled" : true
     }
   }, {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_2",
+    "server" : "3.128.108.85",
+    "server_port" : 22222,
+    "password" : "telegram-id-directvpn",
+    "tls" : {
+      "enabled" : true
+    }
+  }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_3",
-    "server" : "185.237.185.160",
-    "server_port" : 989,
+    "tag" : "🇷🇺_RU_俄罗斯_2",
+    "server" : "217.30.10.18",
+    "server_port" : 9001,
     "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
+    "password" : "UkXRsXvR6buDMG2Y",
     "multiplex" : {
       "enabled" : true
     }
@@ -226,148 +218,6 @@
     "password" : "f8f7aCzcPKbsF8p3",
     "multiplex" : {
       "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "8tv68qhq.slashdevslashnetslashtun.net",
-    "server_port" : 17003,
-    "method" : "aes-256-gcm",
-    "password" : "866J4U7A62Y3BA7D",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇨🇳_CN_中国",
-    "server" : "south.sf0jm.xyz",
-    "server_port" : 49222,
-    "method" : "aes-128-gcm",
-    "password" : "0de787c5-575f-477c-98a6-2b2ce94709a9",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国->🇺🇦_UA_乌克兰",
-    "server" : "98.82.252.171",
-    "server_port" : 22222,
-    "password" : "telegram-id-directvpn",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国_4",
-    "server" : "18.153.165.0",
-    "server_port" : 22222,
-    "password" : "telegram-id-directvpn",
-    "tls" : {
-      "enabled" : true,
-      "alpn" : [ "http/1.1" ]
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
-    "server" : "ti3hyra4.slashdevslashnetslashtun.net",
-    "server_port" : 17004,
-    "method" : "aes-256-gcm",
-    "password" : "LJSU1P9549K09CVE",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_5",
-    "server" : "speedtest.net",
-    "server_port" : 80,
-    "uuid" : "9ea4c33a-2dc8-4c39-c41f-d52016fa56d6",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam",
-      "headers" : {
-        "host" : "IPSERVIS2.ORG"
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇷🇺_RU_俄罗斯_3",
-    "server" : "195.58.49.42",
-    "server_port" : 20313,
-    "uuid" : "c32dc6ea-b141-4555-8af7-b72a1b48d2f6",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/"
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_2",
-    "server" : "qh62onjn.slashdevslashnetslashtun.net",
-    "server_port" : 17007,
-    "method" : "aes-256-gcm",
-    "password" : "MXNFC7XS62Z7R729",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国_1",
-    "server" : "www.speedtest.net",
-    "server_port" : 80,
-    "uuid" : "e6afaf50-e32d-11ef-b534-205c6d5f5d78",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/",
-      "headers" : {
-        "host" : "us-21.hihu.net"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯_4",
-    "server" : "is3.opensocks.site",
-    "server_port" : 8388,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "NjBlZDlk",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇦_UA_乌克兰_1",
-    "server" : "tr1.ssocks.wiki",
-    "server_port" : 8388,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "YzVlN",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯_5",
-    "server" : "217.30.10.18",
-    "server_port" : 9045,
-    "method" : "aes-256-cfb",
-    "password" : "Lp27rqyJq72bZsqX",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇬🇧_GB_英国",
-    "server" : "35.178.128.84",
-    "server_port" : 22222,
-    "password" : "telegram-id-privatevpns",
-    "tls" : {
-      "enabled" : true,
-      "alpn" : [ "http/1.1" ]
     }
   }, {
     "type" : "vmess",
@@ -386,34 +236,119 @@
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯_6",
+    "tag" : "🇺🇸_US_美国_5",
+    "server" : "185.47.252.251",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇳🇱_NL_荷兰->🇺🇸_US_美国",
+    "server" : "193.29.139.189",
+    "server_port" : 8080,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "cvII85TrW6n0OGyfpHVS1u",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_3",
+    "server" : "NUFiLTER.fastly80-3.hosting-ip.com",
+    "server_port" : 80,
+    "uuid" : "ff2b2fca-a979-4f23-8740-17975f11110a",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=8080",
+      "headers" : {
+        "host" : "6.fidsxss222x.ir"
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇮🇳_IN_印度",
+    "server" : "151.101.158.204",
+    "server_port" : 80,
+    "uuid" : "64ce3550-595a-4327-ba2c-5af2590b3d3b",
+    "tls" : {
+      "enabled" : true,
+      "utls" : {
+        "enabled" : true,
+        "fingerprint" : "chrome"
+      }
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/olem/ws?ed=64",
+      "headers" : {
+        "host" : "fatmelo.com"
+      }
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇷🇺_RU_俄罗斯_3",
     "server" : "217.30.10.18",
-    "server_port" : 9056,
+    "server_port" : 9059,
     "method" : "aes-256-cfb",
-    "password" : "rNBfNuuANFCAk7KB",
+    "password" : "9XwYyZsK8SNzQDtY",
     "multiplex" : {
       "enabled" : true
     }
   }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_6",
-    "server" : "151.101.194.133",
-    "server_port" : 80,
-    "uuid" : "92ec8d1c-85a1-42ee-ade6-971a434f4076",
-    "tls" : {
+    "type" : "shadowsocks",
+    "tag" : "🇷🇺_RU_俄罗斯_4",
+    "server" : "217.30.10.18",
+    "server_port" : 9094,
+    "method" : "aes-256-cfb",
+    "password" : "rpgbNnU9rDDU4aWZ",
+    "multiplex" : {
       "enabled" : true
-    },
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国->🇫🇷_FR_法国_1",
+    "server" : "151.101.130.133",
+    "server_port" : 80,
+    "uuid" : "ca387597-d79e-48c2-89a7-e2dc66a88a70",
+    "security" : "auto",
+    "alter_id" : 0,
     "transport" : {
       "type" : "ws",
-      "path" : "/@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG-------@Hqv2RayNG---?ed=80",
+      "path" : "/racevpn?telegram-",
       "headers" : {
-        "host" : "Yob.nl."
+        "host" : "telegram-isvvpn.ir"
       }
     }
   }, {
+    "type" : "trojan",
+    "tag" : "🇮🇪_IE_爱尔兰",
+    "server" : "34.250.225.60",
+    "server_port" : 22222,
+    "password" : "telegram-id-privatevpns",
+    "tls" : {
+      "enabled" : true,
+      "alpn" : [ "http/1.1" ]
+    }
+  }, {
     "type" : "shadowsocks",
-    "tag" : "🇷🇴_RO_罗马尼亚",
-    "server" : "185.193.49.88",
+    "tag" : "🇮🇳_IN_印度_1",
+    "server" : "103.104.247.47",
+    "server_port" : 8080,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "oZIoA69Q8yhcQV8ka3Pa3A",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇷🇺_RU_俄罗斯_5",
+    "server" : "185.231.233.112",
     "server_port" : 989,
     "method" : "aes-256-cfb",
     "password" : "f8f7aCzcPKbsF8p3",
@@ -421,38 +356,22 @@
       "enabled" : true
     }
   }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_7",
-    "server" : "151.101.2.165",
-    "server_port" : 80,
-    "uuid" : "9ea4c33a-2dc8-4c39-c41f-d52016fa56d6",
+    "type" : "trojan",
+    "tag" : "🇬🇧_GB_英国",
+    "server" : "35.179.63.48",
+    "server_port" : 22222,
+    "password" : "telegram-id-privatevpns",
     "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam",
-      "headers" : {
-        "host" : "IPSERVIS2.ORG"
-      }
+      "enabled" : true,
+      "insecure" : false
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇮🇹_IT_意大利",
-    "server" : "37.143.129.230",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_8",
-    "server" : "34.221.94.162",
-    "server_port" : 443,
-    "method" : "aes-256-cfb",
-    "password" : "amazonskr05",
+    "tag" : "🇷🇺_RU_俄罗斯_6",
+    "server" : "89.221.224.166",
+    "server_port" : 8388,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "NjBlZDlk",
     "multiplex" : {
       "enabled" : true
     }

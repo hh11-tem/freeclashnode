@@ -71,119 +71,18 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦", "🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦_1", "🇺🇸_US_美国_1", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇦_UA_乌克兰", "🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦_2", "🇷🇺_RU_俄罗斯->🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦", "🇧🇬_BG_保加利亚->🇺🇸_US_美国", "🇮🇹_IT_意大利", "🇷🇴_RO_罗马尼亚", "🇺🇦_UA_乌克兰_1", "🇬🇧_GB_英国", "🇺🇸_US_美国->🇬🇧_GB_英国" ],
+    "outbounds" : [ "url-test", "🇧🇬_BG_保加利亚", "🇮🇳_IN_印度" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇺🇸_US_美国", "🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦", "🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦_1", "🇺🇸_US_美国_1", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇺🇦_UA_乌克兰", "🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦_2", "🇷🇺_RU_俄罗斯->🇺🇸_US_美国", "🇲🇩_MD_摩尔多瓦", "🇧🇬_BG_保加利亚->🇺🇸_US_美国", "🇮🇹_IT_意大利", "🇷🇴_RO_罗马尼亚", "🇺🇦_UA_乌克兰_1", "🇬🇧_GB_英国", "🇺🇸_US_美国->🇬🇧_GB_英国" ],
+    "outbounds" : [ "🇧🇬_BG_保加利亚", "🇮🇳_IN_印度" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "34.220.100.94",
-    "server_port" : 443,
-    "method" : "aes-256-cfb",
-    "password" : "amazonskr05",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦",
-    "server" : "104.26.15.85",
-    "server_port" : 443,
-    "password" : "936c6853-6bbf-4e24-8667-ec5b2fc275b3",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2",
-      "headers" : {
-        "host" : "md1.safecdn.site"
-      }
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦_1",
-    "server" : "104.26.14.85",
-    "server_port" : 443,
-    "password" : "936c6853-6bbf-4e24-8667-ec5b2fc275b3",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2",
-      "headers" : {
-        "host" : "md1.safecdn.site"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_1",
-    "server" : "38.114.123.245",
-    "server_port" : 8118,
-    "method" : "aes-256-gcm",
-    "password" : "cdBIDV42DCwnfIN",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "219.135.231.205",
-    "server_port" : 21019,
-    "password" : "20a84ebf-9341-4f5f-8245-3975e2fdeee5",
-    "tls" : {
-      "enabled" : true,
-      "insecure" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇦_UA_乌克兰",
-    "server" : "185.234.64.35",
-    "server_port" : 8388,
-    "method" : "chacha20-ietf-poly1305",
-    "password" : "YTNjNDY5",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦_2",
-    "server" : "52.89.149.132",
-    "server_port" : 443,
-    "password" : "3747000103274291200",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯->🇺🇸_US_美国",
-    "server" : "185.231.233.173",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇲🇩_MD_摩尔多瓦",
-    "server" : "91.132.94.200",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇧🇬_BG_保加利亚->🇺🇸_US_美国",
+    "tag" : "🇧🇬_BG_保加利亚",
     "server" : "149.34.244.72",
     "server_port" : 443,
     "method" : "aes-128-gcm",
@@ -193,60 +92,13 @@
     }
   }, {
     "type" : "shadowsocks",
-    "tag" : "🇮🇹_IT_意大利",
-    "server" : "37.143.129.230",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
+    "tag" : "🇮🇳_IN_印度",
+    "server" : "103.104.247.49",
+    "server_port" : 8080,
+    "method" : "chacha20-ietf-poly1305",
+    "password" : "oZIoA69Q8yhcQV8ka3Pa3A",
     "multiplex" : {
       "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇴_RO_罗马尼亚",
-    "server" : "185.193.49.88",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇦_UA_乌克兰_1",
-    "server" : "85.90.194.160",
-    "server_port" : 443,
-    "password" : "3747000103274291200",
-    "tls" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇬🇧_GB_英国",
-    "server" : "185.121.134.12",
-    "server_port" : 20317,
-    "uuid" : "ed10802f-6cba-4ba8-932c-1d73a125c9d5",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/"
-    }
-  }, {
-    "type" : "trojan",
-    "tag" : "🇺🇸_US_美国->🇬🇧_GB_英国",
-    "server" : "172.67.73.163",
-    "server_port" : 443,
-    "password" : "936c6853-6bbf-4e24-8667-ec5b2fc275b3",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2",
-      "headers" : {
-        "host" : "md1.safecdn.site"
-      }
     }
   }, {
     "type" : "direct",

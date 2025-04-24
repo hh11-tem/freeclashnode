@@ -71,26 +71,24 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇨🇦_CA_加拿大", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇺🇸_US_美国_1", "🇨🇳_CN_中国->🇺🇸_US_美国_2", "🇩🇪_DE_德国", "🇺🇸_US_美国_2", "🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国_3", "未知", "🇺🇸_US_美国->🇺🇦_UA_乌克兰" ],
+    "outbounds" : [ "url-test", "🇬🇧_GB_英国", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇷🇴_RO_罗马尼亚", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇪🇸_ES_西班牙", "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚", "🇺🇸_US_美国->🇩🇪_DE_德国_1", "🇹🇷_TR_土耳其->🇷🇺_RU_俄罗斯", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国->🇨🇳_CN_中国_1", "🇺🇸_US_美国->🇨🇳_CN_中国_2", "🇦🇱_AL_阿尔巴尼亚", "🇷🇺_RU_俄罗斯_1", "🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯", "🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯_1", "🇺🇸_US_美国_2", "🇪🇸_ES_西班牙_1", "🇺🇸_US_美国->🇨🇳_CN_中国_3", "🇬🇧_GB_英国_1", "🇺🇸_US_美国_3", "🇹🇷_TR_土耳其->🇬🇧_GB_英国", "🇬🇧_GB_英国->🇷🇴_RO_罗马尼亚", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇦🇱_AL_阿尔巴尼亚_1", "🇬🇧_GB_英国->🇨🇳_CN_中国", "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_1" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇨🇦_CA_加拿大", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇺🇸_US_美国_1", "🇨🇳_CN_中国->🇺🇸_US_美国_2", "🇩🇪_DE_德国", "🇺🇸_US_美国_2", "🇨🇳_CN_中国", "🇨🇳_CN_中国->🇺🇸_US_美国_3", "未知", "🇺🇸_US_美国->🇺🇦_UA_乌克兰" ],
+    "outbounds" : [ "🇬🇧_GB_英国", "🇺🇸_US_美国->🇩🇪_DE_德国", "🇷🇴_RO_罗马尼亚", "🇺🇸_US_美国->🇨🇳_CN_中国", "🇪🇸_ES_西班牙", "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚", "🇺🇸_US_美国->🇩🇪_DE_德国_1", "🇹🇷_TR_土耳其->🇷🇺_RU_俄罗斯", "🇺🇸_US_美国", "🇺🇸_US_美国_1", "🇷🇺_RU_俄罗斯", "🇺🇸_US_美国->🇨🇳_CN_中国_1", "🇺🇸_US_美国->🇨🇳_CN_中国_2", "🇦🇱_AL_阿尔巴尼亚", "🇷🇺_RU_俄罗斯_1", "🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯", "🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯_1", "🇺🇸_US_美国_2", "🇪🇸_ES_西班牙_1", "🇺🇸_US_美国->🇨🇳_CN_中国_3", "🇬🇧_GB_英国_1", "🇺🇸_US_美国_3", "🇹🇷_TR_土耳其->🇬🇧_GB_英国", "🇬🇧_GB_英国->🇷🇴_RO_罗马尼亚", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇦🇱_AL_阿尔巴尼亚_1", "🇬🇧_GB_英国->🇨🇳_CN_中国", "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_1" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
-    "type" : "vmess",
-    "tag" : "🇷🇺_RU_俄罗斯",
-    "server" : "195.58.49.84",
-    "server_port" : 22020,
-    "uuid" : "bb449857-cb50-493e-8efd-f317446f7560",
-    "security" : "auto",
-    "alter_id" : 0,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/"
+    "type" : "trojan",
+    "tag" : "🇬🇧_GB_英国",
+    "server" : "mutual-gannet.dolphin109.quest",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
     }
   }, {
     "type" : "vmess",
@@ -108,33 +106,254 @@
       }
     }
   }, {
+    "type" : "trojan",
+    "tag" : "🇷🇴_RO_罗马尼亚",
+    "server" : "concrete-lion.dolphin109.quest",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国",
+    "server" : "equipped-satyr.dolphin109.quest",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇪🇸_ES_西班牙",
+    "server" : "212.192.2.253",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
     "type" : "vmess",
-    "tag" : "🇺🇸_US_美国",
-    "server" : "104.21.82.39",
-    "server_port" : 80,
-    "uuid" : "4be20cf1-6af1-4e87-ae5a-80d6ec30fecd",
+    "tag" : "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚",
+    "server" : "141.193.213.168",
+    "server_port" : 2086,
+    "uuid" : "19e3cd78-16ca-4158-98b1-0e3d3669fea4",
     "security" : "auto",
     "alter_id" : 0,
     "transport" : {
       "type" : "ws",
-      "path" : "/WudQ2hzj2qjH1GhzxRV9PS",
+      "path" : "/",
       "headers" : {
-        "host" : "8uiop.191288.xyz"
+        "host" : "ustoucjjnid18sj6us.lovebaipiao.com"
       }
     }
   }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国->🇩🇪_DE_德国_1",
+    "server" : "151.101.204.249",
+    "server_port" : 80,
+    "uuid" : "0a6f34c4-39a7-4a27-914c-9d9ec9b57a89",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420--Join--EXPRESSVPN_420?ed=2048",
+      "headers" : {
+        "host" : "website.amin-app.ir"
+      }
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇹🇷_TR_土耳其->🇷🇺_RU_俄罗斯",
+    "server" : "185.67.125.203",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国",
+    "server" : "138.197.44.242",
+    "server_port" : 52605,
+    "uuid" : "d431e60a-2a26-46ef-b0a8-644143727c12",
+    "tls" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国_1",
+    "server" : "main-moose.dolphin109.quest",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇷🇺_RU_俄罗斯",
+    "server" : "humble-shad.dolphin109.quest",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
     "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇨🇦_CA_加拿大",
-    "server" : "dxv4.pai50288.uk",
-    "server_port" : 14100,
-    "uuid" : "f6866b0b-f946-4a03-8df0-c7e0016b55ad",
+    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国_1",
+    "server" : "170.114.45.51",
+    "server_port" : 2086,
+    "uuid" : "19e3cd78-16ca-4158-98b1-0e3d3669fea4",
     "security" : "auto",
-    "alter_id" : 0
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/",
+      "headers" : {
+        "host" : "ustoucjjnid18sj6us.lovebaipiao.com"
+      }
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国_2",
+    "server" : "162.216.231.86",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇦🇱_AL_阿尔巴尼亚",
+    "server" : "choice-gar.dolphin109.quest",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇷🇺_RU_俄罗斯_1",
+    "server" : "95.85.93.192",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯",
+    "server" : "45.146.232.173",
+    "server_port" : 43586,
+    "password" : "942ba7b1-0e01-4102-ada5-0bfd40de994f",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : false
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇳🇱_NL_荷兰->🇷🇺_RU_俄罗斯_1",
+    "server" : "45.146.232.171",
+    "server_port" : 43586,
+    "password" : "e7793c4f-2885-475c-8046-26e660c46467",
+    "tls" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国_2",
+    "server" : "172.67.204.22",
+    "server_port" : 443,
+    "password" : "5453ae26-250d-4e79-b4ec-016baf806865",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : false
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/OYzPAeaZdXUq2d6J3gc4aj",
+      "headers" : {
+        "host" : "1sdfghjk.890602.xyz"
+      }
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇪🇸_ES_西班牙_1",
+    "server" : "lucky-lynx.dolphin109.quest",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国->🇨🇳_CN_中国_3",
+    "server" : "magical-lizard.dolphin109.quest",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇬🇧_GB_英国_1",
+    "server" : "85.234.65.227",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国_3",
+    "server" : "cdn1.bpcdn.cc",
+    "server_port" : 80,
+    "uuid" : "19e3cd78-16ca-4158-98b1-0e3d3669fea4",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/",
+      "headers" : {
+        "host" : "tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz"
+      }
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇹🇷_TR_土耳其->🇬🇧_GB_英国",
+    "server" : "modest-firefly.dolphin109.quest",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇬🇧_GB_英国->🇷🇴_RO_罗马尼亚",
+    "server" : "85.234.65.100",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
   }, {
     "type" : "vmess",
     "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "v24.heduian.link",
-    "server_port" : 30824,
+    "server" : "v29.heduian.link",
+    "server_port" : 30829,
     "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
     "security" : "auto",
     "alter_id" : 2,
@@ -142,127 +361,41 @@
       "type" : "ws",
       "path" : "/oooo",
       "headers" : {
-        "host" : "baidu.com"
+        "host" : "v29.heduian.link"
       }
     }
   }, {
+    "type" : "trojan",
+    "tag" : "🇦🇱_AL_阿尔巴尼亚_1",
+    "server" : "109.104.153.229",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇬🇧_GB_英国->🇨🇳_CN_中国",
+    "server" : "85.234.65.12",
+    "server_port" : 443,
+    "password" : "3828095943467868160",
+    "tls" : {
+      "enabled" : true
+    }
+  }, {
     "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
-    "server" : "v40.heduian.link",
-    "server_port" : 30840,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+    "tag" : "🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_1",
+    "server" : "141.193.213.167",
+    "server_port" : 2086,
+    "uuid" : "19e3cd78-16ca-4158-98b1-0e3d3669fea4",
     "security" : "auto",
     "alter_id" : 0,
     "transport" : {
       "type" : "ws",
-      "path" : "/index",
+      "path" : "/",
       "headers" : {
-        "host" : "v40.heduian.link"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇺🇸_US_美国_1",
-    "server" : "184.170.241.194",
-    "server_port" : 443,
-    "method" : "aes-128-cfb",
-    "password" : "shadowsocks",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_2",
-    "server" : "v30.heduian.link",
-    "server_port" : 30830,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo",
-      "headers" : {
-        "host" : "ocbc.com"
-      }
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇩🇪_DE_德国",
-    "server" : "193.108.119.230",
-    "server_port" : 8080,
-    "method" : "rc4-md5",
-    "password" : "14fFPrbezE3HDZzsMOr6",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国_2",
-    "server" : "104.17.147.22",
-    "server_port" : 80,
-    "uuid" : "148ff673-b389-4b67-82c3-ae5225f2ce33",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048",
-      "headers" : {
-        "host" : "Www.speedtest.net.developsp.ir."
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国",
-    "server" : "v25.heduian.link",
-    "server_port" : 30825,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo",
-      "headers" : {
-        "host" : "baidu.com"
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_3",
-    "server" : "v8.heduian.link",
-    "server_port" : 30808,
-    "uuid" : "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-    "security" : "auto",
-    "alter_id" : 2,
-    "transport" : {
-      "type" : "ws",
-      "path" : "/oooo",
-      "headers" : {
-        "host" : "baidu.com"
-      }
-    }
-  }, {
-    "type" : "vmess",
-    "tag" : "未知",
-    "server" : "89.18.58.63",
-    "server_port" : 180,
-    "uuid" : "d13fc2f5-3e05-4795-81eb-44143a09e552",
-    "security" : "auto",
-    "alter_id" : 0
-  }, {
-    "type" : "vless",
-    "tag" : "🇺🇸_US_美国->🇺🇦_UA_乌克兰",
-    "server" : "tgju.org",
-    "server_port" : 8080,
-    "uuid" : "56652249-2e67-4429-b86c-3df8b838ad85",
-    "tls" : {
-      "enabled" : true
-    },
-    "transport" : {
-      "type" : "ws",
-      "path" : "/?ed=2048",
-      "headers" : {
-        "host" : "4j.QBAo1g5z6k.ZulaIR.org."
+        "host" : "ustoucjjnid18sj6us.lovebaipiao.com"
       }
     }
   }, {

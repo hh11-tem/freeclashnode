@@ -71,58 +71,53 @@
   "outbounds" : [ {
     "type" : "selector",
     "tag" : "select",
-    "outbounds" : [ "url-test", "🇧🇬_BG_保加利亚->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇷🇺_RU_俄罗斯", "🇫🇷_FR_法国->🇺🇸_US_美国", "🇺🇸_US_美国", "🇺🇸_US_美国_1" ],
+    "outbounds" : [ "url-test", "🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇫🇷_FR_法国", "🇺🇸_US_美国->🇰🇷_KR_韩国", "🇷🇺_RU_俄罗斯", "🇬🇧_GB_英国->🇫🇷_FR_法国", "🇮🇳_IN_印度->🇺🇸_US_美国" ],
     "default" : "url-test"
   }, {
     "type" : "urltest",
     "tag" : "url-test",
-    "outbounds" : [ "🇧🇬_BG_保加利亚->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇷🇺_RU_俄罗斯", "🇫🇷_FR_法国->🇺🇸_US_美国", "🇺🇸_US_美国", "🇺🇸_US_美国_1" ],
+    "outbounds" : [ "🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国", "🇨🇳_CN_中国->🇺🇸_US_美国_1", "🇺🇸_US_美国_1", "🇺🇸_US_美国_2", "🇺🇸_US_美国_3", "🇫🇷_FR_法国", "🇺🇸_US_美国->🇰🇷_KR_韩国", "🇷🇺_RU_俄罗斯", "🇬🇧_GB_英国->🇫🇷_FR_法国", "🇮🇳_IN_印度->🇺🇸_US_美国" ],
     "url" : "https://www.gstatic.com/generate_204",
     "interval" : "3m",
     "tolerance" : 50
   }, {
-    "type" : "trojan",
-    "tag" : "🇧🇬_BG_保加利亚->🇺🇸_US_美国",
-    "server" : "87.121.33.202",
-    "server_port" : 443,
-    "password" : "74260653385993900",
-    "tls" : {
-      "enabled" : true,
-      "insecure" : false
+    "type" : "vmess",
+    "tag" : "🇺🇸_US_美国",
+    "server" : "Xcvfgt5.222560.xyz",
+    "server_port" : 80,
+    "uuid" : "19a78eeb-d83a-4364-b095-b7dd93436320",
+    "security" : "auto",
+    "alter_id" : 0,
+    "transport" : {
+      "type" : "ws",
+      "path" : "/7LBPethgWxDoVuzO0WLijID",
+      "headers" : {
+        "host" : "xcvfgt5.222560.xyz"
+      }
     }
   }, {
     "type" : "trojan",
     "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国",
-    "server" : "eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net",
-    "server_port" : 15229,
-    "password" : "0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9",
+    "server" : "36.151.251.62",
+    "server_port" : 13542,
+    "password" : "RlzoEILU",
     "tls" : {
       "enabled" : true,
-      "insecure" : false
+      "insecure" : true
     }
   }, {
-    "type" : "shadowsocks",
-    "tag" : "🇷🇺_RU_俄罗斯",
-    "server" : "185.231.233.112",
-    "server_port" : 989,
-    "method" : "aes-256-cfb",
-    "password" : "f8f7aCzcPKbsF8p3",
-    "multiplex" : {
-      "enabled" : true
-    }
-  }, {
-    "type" : "shadowsocks",
-    "tag" : "🇫🇷_FR_法国->🇺🇸_US_美国",
-    "server" : "195.154.54.171",
-    "server_port" : 13355,
-    "method" : "aes-256-gcm",
-    "password" : "dongtaiwang.com",
-    "multiplex" : {
-      "enabled" : true
+    "type" : "trojan",
+    "tag" : "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+    "server" : "120.233.44.201",
+    "server_port" : 21102,
+    "password" : "2b1ed981-6547-4094-998b-06a3323d6f6c",
+    "tls" : {
+      "enabled" : true,
+      "insecure" : true
     }
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国",
+    "tag" : "🇺🇸_US_美国_1",
     "server" : "172.67.73.163",
     "server_port" : 8080,
     "uuid" : "690ab90e-3f21-422b-8cb1-bc9845c7af1e",
@@ -138,18 +133,89 @@
     }
   }, {
     "type" : "vless",
-    "tag" : "🇺🇸_US_美国_1",
-    "server" : "104.26.14.85",
-    "server_port" : 8080,
-    "uuid" : "690ab90e-3f21-422b-8cb1-bc9845c7af1e",
+    "tag" : "🇺🇸_US_美国_2",
+    "server" : "104.21.80.1",
+    "server_port" : 2052,
+    "uuid" : "0b139d40-22ae-4f57-b750-bb632640ba68",
     "tls" : {
       "enabled" : true
     },
     "transport" : {
       "type" : "ws",
-      "path" : "/",
+      "path" : "/@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20V----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20?ed=2052",
       "headers" : {
-        "host" : "IO.IhJtq0hklC.ZULAiR.OrG."
+        "host" : "cdnvpntv20.erfantop.ir"
+      }
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇺🇸_US_美国_3",
+    "server" : "104.21.16.1",
+    "server_port" : 2052,
+    "uuid" : "0b139d40-22ae-4f57-b750-bb632640ba68",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20V----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20----@VPNTV20?ed=2052",
+      "headers" : {
+        "host" : "cdnvpntv20.erfantop.ir"
+      }
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇫🇷_FR_法国",
+    "server" : "195.154.54.171",
+    "server_port" : 13355,
+    "method" : "aes-256-gcm",
+    "password" : "dongtaiwang.com",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇺🇸_US_美国->🇰🇷_KR_韩国",
+    "server" : "13.60.86.63",
+    "server_port" : 443,
+    "password" : "FYCO02u8Ny3RS38axzSTl3pcaegKlZ3BZyeS7Eaj6A9ODYIpwCAXF5CR4DqxDn",
+    "tls" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "shadowsocks",
+    "tag" : "🇷🇺_RU_俄罗斯",
+    "server" : "185.231.233.112",
+    "server_port" : 989,
+    "method" : "aes-256-cfb",
+    "password" : "f8f7aCzcPKbsF8p3",
+    "multiplex" : {
+      "enabled" : true
+    }
+  }, {
+    "type" : "trojan",
+    "tag" : "🇬🇧_GB_英国->🇫🇷_FR_法国",
+    "server" : "51.44.100.175",
+    "server_port" : 22222,
+    "password" : "telegram-id-privatevpns",
+    "tls" : {
+      "enabled" : true,
+      "alpn" : [ "http/1.1" ]
+    }
+  }, {
+    "type" : "vless",
+    "tag" : "🇮🇳_IN_印度->🇺🇸_US_美国",
+    "server" : "14.102.228.75",
+    "server_port" : 80,
+    "uuid" : "b49d8a13-12f6-4613-bb0d-3e2f6244f29c",
+    "tls" : {
+      "enabled" : true
+    },
+    "transport" : {
+      "type" : "ws",
+      "path" : "/vless/",
+      "headers" : {
+        "host" : "ov-canada1.09vpn.com"
       }
     }
   }, {

@@ -58,8 +58,41 @@ tun:
 
 
 proxies:
-  - type: vless
+  - type: ss
     name: 🇨🇳_CN_中国
+    server: 103.149.182.203
+    port: 8388
+    cipher: chacha20-ietf
+    password: asd123456
+  - type: vless
+    name: 🇰🇷_KR_韩国
+    server: 222.112.191.5
+    port: 33334
+    uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
+    network: ws
+    servername: lh7799.cs033.netlib.re
+    tls: true
+    ws-opts:
+      path: /proxyip=sjc.o00o.ooo
+      headers:
+        Host: lh7799.cs033.netlib.re
+    client-fingerprint: random
+    alpn:
+      - h3
+  - type: vless
+    name: 🇺🇸_US_美国
+    server: 108.162.198.24
+    port: 2096
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    network: ws
+    servername: kuangbao.xiejiang.dpdns.org
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+  - type: vless
+    name: 🇨🇳_CN_中国_1
     server: 8.212.79.249
     port: 443
     uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
@@ -74,86 +107,9 @@ proxies:
     alpn:
       - h3
   - type: vless
-    name: 🇰🇷_KR_韩国
-    server: 14.53.207.174
-    port: 14524
-    uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
-    network: ws
-    servername: lh7799.cs033.netlib.re
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: lh7799.cs033.netlib.re
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇰🇷_KR_韩国_1
-    server: 211.213.104.144
-    port: 50001
-    uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
-    network: ws
-    servername: lh7799.cs033.netlib.re
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: lh7799.cs033.netlib.re
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇨🇳_CN_中国_1
-    server: 220.130.58.230
-    port: 443
-    uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
-    network: ws
-    servername: lh7799.cs033.netlib.re
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: lh7799.cs033.netlib.re
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇯🇵_JP_日本
-    server: 18.183.89.240
-    port: 443
-    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
-    network: ws
-    servername: kuangbao.xiejiang.dpdns.org
-    tls: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: kuangbao.xiejiang.dpdns.org
-  - type: vless
-    name: 🇺🇸_US_美国
-    server: 141.98.197.101
-    port: 11665
-    uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
-    network: ws
-    servername: lh7799.cs033.netlib.re
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: lh7799.cs033.netlib.re
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇰🇷_KR_韩国_2
-    server: 211.217.234.224
-    port: 32101
-    uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
-    network: ws
-    servername: lh7799.cs033.netlib.re
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: lh7799.cs033.netlib.re
-    client-fingerprint: chrome
-  - type: vless
-    name: 🇧🇪_BE_比利时
-    server: 57.129.137.213
-    port: 8443
+    name: 🇨🇳_CN_中国_2
+    server: 59.126.91.217
+    port: 26257
     uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
     network: ws
     servername: lh7799.cs033.netlib.re
@@ -176,37 +132,24 @@ proxies:
       headers:
         Host: lh7799.cs033.netlib.re
     client-fingerprint: chrome
-  - type: vmess
-    name: 🇺🇸 美国 52
-    server: us5.998998.best
-    port: 443
-    uuid: 24254866-770c-41b4-9404-3f50524f425b
-    alterId: 0
-    network: ws
-    cipher: auto
-    servername: 24254866-770c-41b4-9404-3f50524f425b.fasleangles.fun
-    ws-opts:
-      path: /androirfdsreoightrjh
-      headers:
-        Host: 24254866-770c-41b4-9404-3f50524f425b.fasleangles.fun
-    tls: true
-  - type: vless
-    name: 🇧🇪_BE_比利时_1
-    server: 57.129.137.67
-    port: 443
-    uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
-    network: ws
-    servername: lh7799.cs033.netlib.re
-    tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: lh7799.cs033.netlib.re
-    client-fingerprint: chrome
   - type: vless
     name: 🇺🇸_US_美国_2
-    server: 104.168.28.99
-    port: 1366
+    server: 166.62.114.253
+    port: 2096
+    uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+    network: ws
+    servername: vless.muzheng.top
+    tls: true
+    encryption: none
+    ws-opts:
+      path: /Telegram🇨🇳+@WangCai2+/?ed=2560
+      headers:
+        Host: vless.muzheng.top
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇯🇵_JP_日本
+    server: 168.138.46.67
+    port: 443
     uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
     network: ws
     servername: lh7799.cs033.netlib.re
@@ -216,6 +159,40 @@ proxies:
       headers:
         Host: lh7799.cs033.netlib.re
     client-fingerprint: chrome
+  - type: vmess
+    name: "%F0%9F%87%B9%F0%9F%87%B7%20%40Evay_vpn"
+    server: cpanel.navar1.ir
+    port: 100
+    uuid: 26402bc7-7895-4dd0-ae6e-151a00c71145
+    alterId: 0
+    network: tcp
+    cipher: auto
+    servername: uploadboy.com
+  - type: vless
+    name: 🏳️_unKnow_未知
+    server: de-cdn.ultima.foundation
+    port: 443
+    uuid: 2dfa740c-8069-4993-8b96-c3e5dc540593
+    network: tcp
+    servername: web.max.ru
+    tls: true
+    reality-opts:
+      public-key: FcZ6-LZS5HHqAJ8YwFV_Gu_WxrMuylqxYjBu-1CLVRI
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
+  - type: vless
+    name: 🇳🇱_NL_荷兰
+    server: 130.162.220.137
+    port: 443
+    uuid: dc6a6c45-b13c-4f1d-8729-19b4d8bba4aa
+    network: tcp
+    servername: www.lamer.com
+    tls: true
+    reality-opts:
+      public-key: UV34T0S_VyVcChA2Tb9MIbg4tr1mHGMr_Lw5Gvb17F8
+      short-id: 66ed2fdd
+    client-fingerprint: safari
+    flow: xtls-rprx-vision
   - type: vless
     name: 🇨🇦_CA_加拿大
     server: 142.132.140.130
@@ -230,7 +207,25 @@ proxies:
         Host: kuangbao.xiejiang.dpdns.org
   - type: vless
     name: 🇺🇸_US_美国_3
-    server: 68.64.176.135
+    server: freeyx.cloudflare88.eu.org
+    port: 2096
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    network: ws
+    servername: kuangbao.xiejiang.dpdns.org
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+  - type: ss
+    name: 🇷🇺_RU_俄罗斯
+    server: 45.14.245.2
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
+  - type: vless
+    name: 🇷🇺_RU_俄罗斯_1
+    server: 193.124.18.13
     port: 443
     uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
     network: ws
@@ -240,59 +235,64 @@ proxies:
       path: /?ed=2560
       headers:
         Host: kuangbao.xiejiang.dpdns.org
+  - type: hysteria2
+    name: 🇺🇸_US_美国_4
+    server: 51.158.218.2
+    port: 50066
+    password: dongtaiwang.com
+    skip-cert-verify: true
+    sni: www.bing.com
   - type: vless
-    name: 🇬🇷_GR_希腊
-    server: ru01-ss01.tcp-reset-club.net
-    port: 8443
-    uuid: 3b4d1c7f-4fd7-45bb-9251-79cd53a3e006
+    name: 🇷🇺_RU_俄罗斯_2
+    server: 95.163.211.166
+    port: 443
+    uuid: a1310243-df27-4d9c-af41-bb2b171430ab
     network: tcp
-    servername: stats.vk-portal.net
+    servername: eh.vk.com
     tls: true
     encryption: none
     reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: "31"
+      public-key: _fHNO5WhoOBcxmsrE9CGjH6Ugi4Edt__EXTD-o_5Ryw
+      short-id: c0f988852a
+    client-fingerprint: chrome
+  - type: vless
+    name: 🇳🇱_NL_荷兰_1
+    server: 46.17.103.204
+    port: 443
+    uuid: f7312d02-d520-4e15-8266-fb2ec831ac66
+    network: tcp
+    servername: www.microsoft.com
+    tls: true
+    encryption: none
+    reality-opts:
+      public-key: CRsbpFGd_TrUqw6knw03PGXOAPByyMIeNOar9ncY-2g
+      short-id: e849c8958a546357
     client-fingerprint: chrome
     flow: xtls-rprx-vision
   - type: vless
-    name: 🇸🇪_SE_瑞典
-    server: 217.142.230.253
-    port: 587
-    uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
+    name: 🇺🇸_US_美国_5
+    server: 172.66.156.81
+    port: 80
+    uuid: a01136da-5f70-4322-9947-437070163449
     network: ws
-    servername: lh7799.cs033.netlib.re
-    tls: true
+    servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
     ws-opts:
-      path: /proxyip=sjc.o00o.ooo
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
       headers:
-        Host: lh7799.cs033.netlib.re
-    client-fingerprint: chrome
+        Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
   - type: vless
-    name: 🇨🇳_CN_中国_2
-    server: 27.50.48.50
-    port: 2053
-    uuid: f3f892db-501c-4a33-b4ca-c0951a3c281b
-    network: ws
-    servername: lh7799.cs033.netlib.re
+    name: 🇺🇸_US_美国_6
+    server: 198.46.146.14
+    port: 54441
+    uuid: 8f4c811e-3af2-4753-abec-8c46fb7a78bb
+    network: tcp
+    servername: www.lovelive-anime.jp
     tls: true
-    ws-opts:
-      path: /proxyip=sjc.o00o.ooo
-      headers:
-        Host: lh7799.cs033.netlib.re
+    reality-opts:
+      public-key: CT6kMvGTGqHLdBAYyTS5y7Aq7O5aUEsc05ZPLp0Edjw
+      short-id: 1a2fb818
     client-fingerprint: chrome
-  - type: vless
-    name: 🇺🇸_US_美国_4
-    server: us2.candyfans.win
-    port: 443
-    uuid: efe47594-d246-4823-9bb8-d828160720ab
-    network: ws
-    servername: us2.candyfans.win
-    tls: true
-    ws-opts:
-      path: /ndhfws
-      headers:
-        Host: us2.candyfans.win
-    client-fingerprint: chrome
+    flow: xtls-rprx-vision
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -301,43 +301,47 @@ proxy-groups:
       - DIRECT
       - 🇨🇳_CN_中国
       - 🇰🇷_KR_韩国
-      - 🇰🇷_KR_韩国_1
-      - 🇨🇳_CN_中国_1
-      - 🇯🇵_JP_日本
       - 🇺🇸_US_美国
-      - 🇰🇷_KR_韩国_2
-      - 🇧🇪_BE_比利时
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
       - 🇺🇸_US_美国_1
-      - 🇺🇸 美国 52
-      - 🇧🇪_BE_比利时_1
       - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本
+      - "%F0%9F%87%B9%F0%9F%87%B7%20%40Evay_vpn"
+      - 🏳️_unKnow_未知
+      - 🇳🇱_NL_荷兰
       - 🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_3
-      - 🇬🇷_GR_希腊
-      - 🇸🇪_SE_瑞典
-      - 🇨🇳_CN_中国_2
+      - 🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
   - name: ♻️ 自动选择
     type: url-test
     proxies:
       - 🇨🇳_CN_中国
       - 🇰🇷_KR_韩国
-      - 🇰🇷_KR_韩国_1
-      - 🇨🇳_CN_中国_1
-      - 🇯🇵_JP_日本
       - 🇺🇸_US_美国
-      - 🇰🇷_KR_韩国_2
-      - 🇧🇪_BE_比利时
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
       - 🇺🇸_US_美国_1
-      - 🇺🇸 美国 52
-      - 🇧🇪_BE_比利时_1
       - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本
+      - "%F0%9F%87%B9%F0%9F%87%B7%20%40Evay_vpn"
+      - 🏳️_unKnow_未知
+      - 🇳🇱_NL_荷兰
       - 🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_3
-      - 🇬🇷_GR_希腊
-      - 🇸🇪_SE_瑞典
-      - 🇨🇳_CN_中国_2
+      - 🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: 🎯 全球直连
@@ -359,22 +363,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇨🇳_CN_中国
       - 🇰🇷_KR_韩国
-      - 🇰🇷_KR_韩国_1
-      - 🇨🇳_CN_中国_1
-      - 🇯🇵_JP_日本
       - 🇺🇸_US_美国
-      - 🇰🇷_KR_韩国_2
-      - 🇧🇪_BE_比利时
+      - 🇨🇳_CN_中国_1
+      - 🇨🇳_CN_中国_2
       - 🇺🇸_US_美国_1
-      - 🇺🇸 美国 52
-      - 🇧🇪_BE_比利时_1
       - 🇺🇸_US_美国_2
+      - 🇯🇵_JP_日本
+      - "%F0%9F%87%B9%F0%9F%87%B7%20%40Evay_vpn"
+      - 🏳️_unKnow_未知
+      - 🇳🇱_NL_荷兰
       - 🇨🇦_CA_加拿大
       - 🇺🇸_US_美国_3
-      - 🇬🇷_GR_希腊
-      - 🇸🇪_SE_瑞典
-      - 🇨🇳_CN_中国_2
+      - 🇷🇺_RU_俄罗斯
+      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_5
+      - 🇺🇸_US_美国_6
 rule-providers:
   LocalAreaNetwork:
     type: http

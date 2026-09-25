@@ -124,16 +124,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰_HK_中国香港",
-        "🇯🇵_JP_日本->🇺🇸_US_美国",
-        "🇨🇳_CN_中国->🇺🇸_US_美国",
-        "🇩🇪_DE_德国",
         "🇺🇸_US_美国",
-        "🇭🇰_HK_中国香港_1",
+        "🇩🇪_DE_德国",
+        "🇩🇪_DE_德国_1",
+        "🇭🇰_HK_中国香港",
         "🇨🇳_CN_中国",
-        "🇩🇪_DE_德国->🇱🇰_LK_斯里兰卡",
-        "🇺🇸_US_美国_1",
-        "🇩🇪_DE_德国_1"
+        "🇺🇸_US_美国_1"
       ]
     },
     {
@@ -339,8 +335,7 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港",
-        "🇭🇰_HK_中国香港_1"
+        "🇭🇰_HK_中国香港"
       ]
     },
     {
@@ -361,15 +356,13 @@
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇯🇵_JP_日本->🇺🇸_US_美国"
+        "Proxy"
       ]
     },
     {
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇯🇵_JP_日本->🇺🇸_US_美国",
-        "🇨🇳_CN_中国->🇺🇸_US_美国",
         "🇺🇸_US_美国",
         "🇺🇸_US_美国_1"
       ]
@@ -379,25 +372,20 @@
       "type": "selector",
       "outbounds": [
         "🇩🇪_DE_德国",
-        "🇨🇳_CN_中国",
-        "🇩🇪_DE_德国->🇱🇰_LK_斯里兰卡",
-        "🇩🇪_DE_德国_1"
+        "🇩🇪_DE_德国_1",
+        "🇨🇳_CN_中国"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇭🇰_HK_中国香港",
-        "🇯🇵_JP_日本->🇺🇸_US_美国",
-        "🇨🇳_CN_中国->🇺🇸_US_美国",
-        "🇩🇪_DE_德国",
         "🇺🇸_US_美国",
-        "🇭🇰_HK_中国香港_1",
+        "🇩🇪_DE_德国",
+        "🇩🇪_DE_德国_1",
+        "🇭🇰_HK_中国香港",
         "🇨🇳_CN_中国",
-        "🇩🇪_DE_德国->🇱🇰_LK_斯里兰卡",
-        "🇺🇸_US_美国_1",
-        "🇩🇪_DE_德国_1"
+        "🇺🇸_US_美国_1"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -408,59 +396,23 @@
       "tag": "direct"
     },
     {
-      "tag": "🇭🇰_HK_中国香港",
+      "tag": "🇺🇸_US_美国",
       "type": "vmess",
-      "server": "dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn",
+      "server": "guanwang.awsno.com",
       "server_port": 443,
-      "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
       "alter_id": 0,
       "security": "auto",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/hls/cctv5phd.m3u8",
         "headers": {
-          "Host": "dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn"
+          "Host": "guanwang.awsno.com"
         }
       },
       "tls": {
         "enabled": true,
-        "server_name": "dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵_JP_日本->🇺🇸_US_美国",
-      "type": "vless",
-      "server": "ghosts-spasm.quick-cdn.net",
-      "server_port": 443,
-      "uuid": "9d50fde6-7e89-4dee-9fee-17a77046604c",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "ghosts-spasm.quick-cdn.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ghosts-spasm.quick-cdn.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇳_CN_中国->🇺🇸_US_美国",
-      "type": "vless",
-      "server": "us22.sofast.live",
-      "server_port": 58011,
-      "uuid": "0afc6426-606c-48e7-bd70-3c424a416842",
-      "tls": {
-        "enabled": false,
+        "server_name": "guanwang.awsno.com",
         "insecure": true
       }
     },
@@ -482,28 +434,28 @@
       "tag": "🇩🇪_DE_德国"
     },
     {
-      "tag": "🇺🇸_US_美国",
-      "type": "vmess",
-      "server": "www.shopify.com",
+      "tag": "🇩🇪_DE_德国_1",
+      "type": "vless",
+      "server": "2.59.134.226",
       "server_port": 443,
-      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/hls/cctv5phd.m3u8",
-        "headers": {
-          "Host": "guanwang.awsno.com"
-        }
-      },
+      "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "guanwang.awsno.com",
+        "server_name": "rich-falcon.cdn.cachefleet.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY"
+        },
         "insecure": true
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港_1",
+      "tag": "🇭🇰_HK_中国香港",
       "type": "vmess",
       "server": "v10.hdacd.com",
       "server_port": 30807,
@@ -529,25 +481,9 @@
       }
     },
     {
-      "tag": "🇩🇪_DE_德国->🇱🇰_LK_斯里兰卡",
-      "type": "vless",
-      "server": "free.sahanwickramasinghe.me",
-      "server_port": 80,
-      "uuid": "684f9a2e-4f96-497f-bfd9-ff1e34637952",
-      "transport": {
-        "type": "ws",
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇺🇸_US_美国_1",
       "type": "vmess",
-      "server": "guanwang.awsno.com",
+      "server": "www.shopify.com",
       "server_port": 443,
       "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
       "alter_id": 0,
@@ -562,27 +498,6 @@
       "tls": {
         "enabled": true,
         "server_name": "guanwang.awsno.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪_DE_德国_1",
-      "type": "vless",
-      "server": "2.59.134.226",
-      "server_port": 443,
-      "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "rich-falcon.cdn.cachefleet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1sSmdw90uTiGuitDvp_q8zcXTcHXKQS3IVjA7T1UNiY"
-        },
         "insecure": true
       }
     }

@@ -124,12 +124,15 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸_US_美国",
-        "🇩🇪_DE_德国",
-        "🇩🇪_DE_德国_1",
-        "🇭🇰_HK_中国香港",
+        "🇹🇼_TW_中国台湾",
         "🇨🇳_CN_中国",
-        "🇺🇸_US_美国_1"
+        "🇺🇸_US_美国",
+        "🇺🇸_US_美国_1",
+        "🇩🇪_DE_德国",
+        "🇺🇸_US_美国_2",
+        "🇺🇸_US_美国_3",
+        "🇭🇰_HK_中国香港",
+        "🇨🇳_CN_中国->🇺🇸_US_美国"
       ]
     },
     {
@@ -342,7 +345,7 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇹🇼_TW_中国台湾"
       ]
     },
     {
@@ -364,28 +367,33 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸_US_美国",
-        "🇺🇸_US_美国_1"
+        "🇺🇸_US_美国_1",
+        "🇺🇸_US_美国_2",
+        "🇺🇸_US_美国_3",
+        "🇨🇳_CN_中国->🇺🇸_US_美国"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇩🇪_DE_德国",
-        "🇩🇪_DE_德国_1",
-        "🇨🇳_CN_中国"
+        "🇨🇳_CN_中国",
+        "🇩🇪_DE_德国"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸_US_美国",
-        "🇩🇪_DE_德国",
-        "🇩🇪_DE_德国_1",
-        "🇭🇰_HK_中国香港",
+        "🇹🇼_TW_中国台湾",
         "🇨🇳_CN_中国",
-        "🇺🇸_US_美国_1"
+        "🇺🇸_US_美国",
+        "🇺🇸_US_美国_1",
+        "🇩🇪_DE_德国",
+        "🇺🇸_US_美国_2",
+        "🇺🇸_US_美国_3",
+        "🇭🇰_HK_中国香港",
+        "🇨🇳_CN_中国->🇺🇸_US_美国"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -396,7 +404,52 @@
       "tag": "direct"
     },
     {
+      "tag": "🇹🇼_TW_中国台湾",
+      "type": "vmess",
+      "server": "24864168545164.oylfmxz.cn",
+      "server_port": 443,
+      "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇳_CN_中国",
+      "type": "vmess",
+      "server": "112.132.215.108",
+      "server_port": 50002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "alter_id": 64,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
       "tag": "🇺🇸_US_美国",
+      "type": "vless",
+      "server": "roundhouse.proxy.rlwy.net",
+      "server_port": 28058,
+      "uuid": "5300170c-0c94-44d9-a276-a6af3fcc6d5f",
+      "transport": {
+        "type": "ws",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国_1",
       "type": "vmess",
       "server": "guanwang.awsno.com",
       "server_port": 443,
@@ -417,24 +470,7 @@
       }
     },
     {
-      "type": "hysteria",
-      "server": "5.83.129.90",
-      "server_port": 54177,
-      "auth_str": "dongtaiwang.com",
-      "up": "500",
-      "down": "1000",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "alpn": [
-          "h3"
-        ],
-        "insecure": true
-      },
-      "tag": "🇩🇪_DE_德国"
-    },
-    {
-      "tag": "🇩🇪_DE_德国_1",
+      "tag": "🇩🇪_DE_德国",
       "type": "vless",
       "server": "2.59.134.226",
       "server_port": 443,
@@ -455,33 +491,23 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港",
-      "type": "vmess",
-      "server": "v10.hdacd.com",
-      "server_port": 30807,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
+      "tag": "🇺🇸_US_美国_2",
+      "type": "vless",
+      "server": "centerbeam.proxy.rlwy.net",
+      "server_port": 57787,
+      "uuid": "62fdc131-c75f-4750-b78f-da03b6782c6a",
+      "transport": {
+        "type": "ws",
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
       "tls": {
         "enabled": false,
         "insecure": true
       }
     },
     {
-      "tag": "🇨🇳_CN_中国",
-      "type": "vmess",
-      "server": "112.132.215.108",
-      "server_port": 50002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "alter_id": 64,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_1",
+      "tag": "🇺🇸_US_美国_3",
       "type": "vmess",
       "server": "www.shopify.com",
       "server_port": 443,
@@ -498,6 +524,29 @@
       "tls": {
         "enabled": true,
         "server_name": "guanwang.awsno.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "anytls",
+      "server": "ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn",
+      "server_port": 443,
+      "password": "9sK2mP8xQ7vL3nZ6",
+      "tls": {
+        "enabled": false,
+        "server_name": "ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn",
+        "insecure": true
+      },
+      "tag": "🇭🇰_HK_中国香港"
+    },
+    {
+      "tag": "🇨🇳_CN_中国->🇺🇸_US_美国",
+      "type": "vless",
+      "server": "us22.sofast.live",
+      "server_port": 58011,
+      "uuid": "0afc6426-606c-48e7-bd70-3c424a416842",
+      "tls": {
+        "enabled": false,
         "insecure": true
       }
     }

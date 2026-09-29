@@ -125,14 +125,14 @@
         "auto",
         "direct",
         "🇷🇺_RU_俄罗斯",
-        "🇭🇰_HK_中国香港",
-        "🇭🇰_HK_中国香港_1",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇺🇸_US_美国",
-        "🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其",
         "🇨🇳_CN_中国",
-        "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
-        "🇭🇰_HK_中国香港_2"
+        "🇭🇰_HK_中国香港",
+        "🇸🇬_SG_新加坡",
+        "🇺🇸_US_美国",
+        "🇨🇳_CN_中国->🇺🇸_US_美国",
+        "🇸🇬_SG_新加坡_1",
+        "🇺🇸_US_美国_1",
+        "🇨🇳_CN_中国->🇺🇸_US_美国_1"
       ]
     },
     {
@@ -338,11 +338,7 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港",
-        "🇭🇰_HK_中国香港_1",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
-        "🇭🇰_HK_中国香港_2"
+        "🇭🇰_HK_中国香港"
       ]
     },
     {
@@ -356,21 +352,25 @@
       "tag": "Singapore",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇸🇬_SG_新加坡",
+        "🇸🇬_SG_新加坡_1"
       ]
     },
     {
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
+        "Proxy"
       ]
     },
     {
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸_US_美国"
+        "🇺🇸_US_美国",
+        "🇨🇳_CN_中国->🇺🇸_US_美国",
+        "🇺🇸_US_美国_1",
+        "🇨🇳_CN_中国->🇺🇸_US_美国_1"
       ]
     },
     {
@@ -378,7 +378,6 @@
       "type": "selector",
       "outbounds": [
         "🇷🇺_RU_俄罗斯",
-        "🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其",
         "🇨🇳_CN_中国"
       ]
     },
@@ -387,14 +386,14 @@
       "type": "urltest",
       "outbounds": [
         "🇷🇺_RU_俄罗斯",
-        "🇭🇰_HK_中国香港",
-        "🇭🇰_HK_中国香港_1",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇺🇸_US_美国",
-        "🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其",
         "🇨🇳_CN_中国",
-        "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
-        "🇭🇰_HK_中国香港_2"
+        "🇭🇰_HK_中国香港",
+        "🇸🇬_SG_新加坡",
+        "🇺🇸_US_美国",
+        "🇨🇳_CN_中国->🇺🇸_US_美国",
+        "🇸🇬_SG_新加坡_1",
+        "🇺🇸_US_美国_1",
+        "🇨🇳_CN_中国->🇺🇸_US_美国_1"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -430,12 +429,25 @@
       }
     },
     {
+      "tag": "🇨🇳_CN_中国",
+      "type": "vmess",
+      "server": "112.132.215.108",
+      "server_port": 50002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "alter_id": 64,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
       "tag": "🇭🇰_HK_中国香港",
       "type": "vmess",
-      "server": "v35.hdacd.com",
-      "server_port": 30835,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
+      "server": "zfd-hkv2.kunlun01dns.com",
+      "server_port": 16116,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "alter_id": 0,
       "security": "auto",
       "tls": {
         "enabled": false,
@@ -443,28 +455,13 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港_1",
-      "type": "vmess",
-      "server": "v10.hdacd.com",
-      "server_port": 30807,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
+      "tag": "🇸🇬_SG_新加坡",
+      "type": "vless",
+      "server": "onhit.shalana.xyz",
+      "server_port": 443,
+      "uuid": "408fbae6-a40b-4f0b-9723-0b4ce8e3d035",
       "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-      "type": "vmess",
-      "server": "v6.hdacd.com",
-      "server_port": 30806,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
+        "enabled": true,
         "insecure": true
       }
     },
@@ -490,55 +487,55 @@
       }
     },
     {
-      "tag": "🇷🇺_RU_俄罗斯->🇹🇷_TR_土耳其",
+      "tag": "🇨🇳_CN_中国->🇺🇸_US_美国",
       "type": "vless",
-      "server": "tr3.wba-pn.ru",
-      "server_port": 443,
-      "uuid": "af2a0c18-b08c-471f-baa3-259ac2ce3a85",
+      "server": "jp.sofast.live",
+      "server_port": 52683,
+      "uuid": "399b6b23-cc40-4831-a494-61948e2df133",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬_SG_新加坡_1",
+      "type": "vless",
+      "server": "free-server.techsonic.dev",
+      "server_port": 2096,
+      "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2",
       "transport": {
         "type": "ws",
+        "path": "/free-server.techsonic.dev",
+        "headers": {
+          "Host": "free-server.techsonic.dev"
+        },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       },
       "tls": {
         "enabled": true,
+        "server_name": "free-server.techsonic.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
         "insecure": true
       }
     },
     {
-      "tag": "🇨🇳_CN_中国",
-      "type": "vmess",
-      "server": "112.132.215.108",
-      "server_port": 50002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "alter_id": 64,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
+      "tag": "🇺🇸_US_美国_1",
+      "type": "shadowsocks",
+      "server": "54.90.169.61",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
-      "type": "vmess",
-      "server": "v36.hdacd.com",
-      "server_port": 30836,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港_2",
-      "type": "vmess",
-      "server": "v4.hdacd.com",
-      "server_port": 30804,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
+      "tag": "🇨🇳_CN_中国->🇺🇸_US_美国_1",
+      "type": "vless",
+      "server": "us22.sofast.live",
+      "server_port": 58011,
+      "uuid": "0afc6426-606c-48e7-bd70-3c424a416842",
       "tls": {
         "enabled": false,
         "insecure": true

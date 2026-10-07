@@ -124,13 +124,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱_NL_荷兰",
         "🇺🇸_US_美国",
-        "🇨🇳_CN_中国->🇯🇵_JP_日本",
         "🇨🇳_CN_中国",
-        "🇺🇸_US_美国_1",
-        "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-        "🇭🇰_HK_中国香港->🇮🇪_IE_爱尔兰",
-        "🇭🇰_HK_中国香港->🇺🇸_US_美国"
+        "🇺🇸_US_美国->🇯🇵_JP_日本",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇮🇹_IT_意大利",
+        "🇯🇵_JP_日本"
       ]
     },
     {
@@ -336,9 +336,7 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-        "🇭🇰_HK_中国香港->🇮🇪_IE_爱尔兰",
-        "🇭🇰_HK_中国香港->🇺🇸_US_美国"
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
       ]
     },
     {
@@ -359,7 +357,9 @@
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇨🇳_CN_中国->🇯🇵_JP_日本"
+        "🇺🇸_US_美国->🇯🇵_JP_日本",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇯🇵_JP_日本"
       ]
     },
     {
@@ -367,28 +367,29 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸_US_美国",
-        "🇺🇸_US_美国_1",
-        "🇭🇰_HK_中国香港->🇺🇸_US_美国"
+        "🇺🇸_US_美国->🇯🇵_JP_日本"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇨🇳_CN_中国"
+        "🇳🇱_NL_荷兰",
+        "🇨🇳_CN_中国",
+        "🇮🇹_IT_意大利"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇳🇱_NL_荷兰",
         "🇺🇸_US_美国",
-        "🇨🇳_CN_中国->🇯🇵_JP_日本",
         "🇨🇳_CN_中国",
-        "🇺🇸_US_美国_1",
-        "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
-        "🇭🇰_HK_中国香港->🇮🇪_IE_爱尔兰",
-        "🇭🇰_HK_中国香港->🇺🇸_US_美国"
+        "🇺🇸_US_美国->🇯🇵_JP_日本",
+        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
+        "🇮🇹_IT_意大利",
+        "🇯🇵_JP_日本"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -397,6 +398,31 @@
     {
       "type": "direct",
       "tag": "direct"
+    },
+    {
+      "tag": "🇳🇱_NL_荷兰",
+      "type": "vless",
+      "server": "no.gokonstantin.com",
+      "server_port": 443,
+      "uuid": "053682f4-c584-46df-ad81-069dec5f64f0",
+      "transport": {
+        "type": "ws",
+        "path": "/cdnws",
+        "headers": {
+          "Host": "no.gokonstantin.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "no.gokonstantin.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
     },
     {
       "tag": "🇺🇸_US_美国",
@@ -420,19 +446,6 @@
       }
     },
     {
-      "tag": "🇨🇳_CN_中国->🇯🇵_JP_日本",
-      "type": "vmess",
-      "server": "sbgfgov.vip6.wogacnmnagfwgov.com",
-      "server_port": 11206,
-      "uuid": "605956ee-544d-308e-8b90-51e67c6ea8da",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇨🇳_CN_中国",
       "type": "vmess",
       "server": "112.132.215.108",
@@ -446,23 +459,23 @@
       }
     },
     {
-      "tag": "🇺🇸_US_美国_1",
+      "tag": "🇺🇸_US_美国->🇯🇵_JP_日本",
       "type": "vless",
-      "server": "86153507-1976-48f1-ac86-e8ab274470a8.fly.dev",
+      "server": "jeffsubs.com",
       "server_port": 443,
-      "uuid": "0b3c3f4f-843a-5b0a-98fe-132c88fbefc0",
+      "uuid": "3d841cdf-f91e-4f3b-a315-c18edcbd2606",
       "transport": {
         "type": "ws",
-        "path": "/ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0",
+        "path": "/nnuyws",
         "headers": {
-          "Host": "86153507-1976-48f1-ac86-e8ab274470a8.fly.dev"
+          "Host": "jeffsubs.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       },
       "tls": {
         "enabled": true,
-        "server_name": "86153507-1976-48f1-ac86-e8ab274470a8.fly.dev",
+        "server_name": "jeffsubs.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -471,10 +484,10 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇩🇪_DE_德国",
+      "tag": "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
       "type": "vmess",
-      "server": "v33.hdacd.com",
-      "server_port": 30833,
+      "server": "v6.hdacd.com",
+      "server_port": 30806,
       "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
       "alter_id": 2,
       "security": "auto",
@@ -484,30 +497,20 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇮🇪_IE_爱尔兰",
-      "type": "vmess",
-      "server": "v4.hdacd.com",
-      "server_port": 30804,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
+      "tag": "🇮🇹_IT_意大利",
+      "type": "shadowsocks",
+      "server": "45.144.172.123",
+      "server_port": 10771,
+      "method": "aes-256-gcm",
+      "password": "78235e7dc55e9ad1"
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇺🇸_US_美国",
-      "type": "vmess",
-      "server": "v29.hdacd.com",
-      "server_port": 30829,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
+      "tag": "🇯🇵_JP_日本",
+      "type": "shadowsocks",
+      "server": "212.192.221.129",
+      "server_port": 10771,
+      "method": "aes-256-gcm",
+      "password": "9cfaa78d51ac366f"
     }
   ],
   "http_clients": [

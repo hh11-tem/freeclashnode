@@ -124,24 +124,18 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰_HK_中国香港",
-        "🇫🇷_FR_法国",
-        "🇫🇷_FR_法国_1",
-        "🇨🇳_CN_中国",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇺🇸_US_美国",
-        "🇺🇸_US_美国_1",
-        "🇪🇸_ES_西班牙",
-        "🇺🇸_US_美国_2",
-        "🇸🇬_SG_新加坡",
-        "🇭🇰_HK_中国香港->🇮🇪_IE_爱尔兰",
-        "🇭🇰_HK_中国香港->🇫🇷_FR_法国",
         "🇨🇳_CN_中国->🇺🇸_US_美国",
-        "🇨🇳_CN_中国_1",
+        "🇫🇷_FR_法国",
+        "🇭🇰_HK_中国香港",
+        "🇺🇸_US_美国",
+        "🇨🇳_CN_中国",
+        "🇪🇸_ES_西班牙",
+        "🇫🇷_FR_法国_1",
+        "🇺🇸_US_美国_1",
+        "🇺🇸_US_美国_2",
         "🇩🇪_DE_德国",
-        "🇸🇬_SG_新加坡_1",
-        "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
-        "🇳🇱_NL_荷兰"
+        "🇨🇳_CN_中国_1",
+        "🇨🇳_CN_中国->🇵🇭_PH_菲律宾"
       ]
     },
     {
@@ -347,11 +341,7 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇭🇰_HK_中国香港->🇮🇪_IE_爱尔兰",
-        "🇭🇰_HK_中国香港->🇫🇷_FR_法国",
-        "🇭🇰_HK_中国香港->🇬🇧_GB_英国"
+        "🇭🇰_HK_中国香港"
       ]
     },
     {
@@ -365,25 +355,24 @@
       "tag": "Singapore",
       "type": "selector",
       "outbounds": [
-        "🇸🇬_SG_新加坡",
-        "🇸🇬_SG_新加坡_1"
+        "Proxy"
       ]
     },
     {
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本"
+        "Proxy"
       ]
     },
     {
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇨🇳_CN_中国->🇺🇸_US_美国",
         "🇺🇸_US_美国",
         "🇺🇸_US_美国_1",
-        "🇺🇸_US_美国_2",
-        "🇨🇳_CN_中国->🇺🇸_US_美国"
+        "🇺🇸_US_美国_2"
       ]
     },
     {
@@ -391,36 +380,30 @@
       "type": "selector",
       "outbounds": [
         "🇫🇷_FR_法国",
-        "🇫🇷_FR_法国_1",
         "🇨🇳_CN_中国",
         "🇪🇸_ES_西班牙",
-        "🇨🇳_CN_中国_1",
+        "🇫🇷_FR_法国_1",
         "🇩🇪_DE_德国",
-        "🇳🇱_NL_荷兰"
+        "🇨🇳_CN_中国_1",
+        "🇨🇳_CN_中国->🇵🇭_PH_菲律宾"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇭🇰_HK_中国香港",
-        "🇫🇷_FR_法国",
-        "🇫🇷_FR_法国_1",
-        "🇨🇳_CN_中国",
-        "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-        "🇺🇸_US_美国",
-        "🇺🇸_US_美国_1",
-        "🇪🇸_ES_西班牙",
-        "🇺🇸_US_美国_2",
-        "🇸🇬_SG_新加坡",
-        "🇭🇰_HK_中国香港->🇮🇪_IE_爱尔兰",
-        "🇭🇰_HK_中国香港->🇫🇷_FR_法国",
         "🇨🇳_CN_中国->🇺🇸_US_美国",
-        "🇨🇳_CN_中国_1",
+        "🇫🇷_FR_法国",
+        "🇭🇰_HK_中国香港",
+        "🇺🇸_US_美国",
+        "🇨🇳_CN_中国",
+        "🇪🇸_ES_西班牙",
+        "🇫🇷_FR_法国_1",
+        "🇺🇸_US_美国_1",
+        "🇺🇸_US_美国_2",
         "🇩🇪_DE_德国",
-        "🇸🇬_SG_新加坡_1",
-        "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
-        "🇳🇱_NL_荷兰"
+        "🇨🇳_CN_中国_1",
+        "🇨🇳_CN_中国->🇵🇭_PH_菲律宾"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -429,6 +412,25 @@
     {
       "type": "direct",
       "tag": "direct"
+    },
+    {
+      "tag": "🇨🇳_CN_中国->🇺🇸_US_美国",
+      "type": "vless",
+      "server": "us22.sofast.live",
+      "server_port": 58011,
+      "uuid": "0afc6426-606c-48e7-bd70-3c424a416842",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷_FR_法国",
+      "type": "shadowsocks",
+      "server": "13.36.241.80",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
     },
     {
       "tag": "🇭🇰_HK_中国香港",
@@ -444,34 +446,9 @@
       }
     },
     {
-      "tag": "🇫🇷_FR_法国",
-      "type": "vless",
-      "server": "fr2.vip-get.ru",
-      "server_port": 443,
-      "uuid": "db4fb2a7-a31d-46d8-b6d2-76eafe8cfe2a",
-      "transport": {
-        "type": "ws",
-        "path": "/api/download",
-        "headers": {
-          "Host": "fr2.vip-get.ru"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr2.vip-get.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷_FR_法国_1",
+      "tag": "🇺🇸_US_美国",
       "type": "shadowsocks",
-      "server": "13.36.178.160",
+      "server": "34.228.79.192",
       "server_port": 443,
       "method": "aes-256-cfb",
       "password": "amazonskr05"
@@ -490,78 +467,23 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇯🇵_JP_日本",
-      "type": "vmess",
-      "server": "v6.hdacd.com",
-      "server_port": 30806,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国",
-      "type": "vless",
-      "server": "s3ws.ragingbull.de5.net",
-      "server_port": 443,
-      "uuid": "f49d04d6-aaa7-4013-b323-bc35b78230db",
-      "transport": {
-        "type": "ws",
-        "path": "/wsrb7k2m",
-        "headers": {
-          "Host": "s3ws.ragingbull.de5.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "s3ws.ragingbull.de5.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_1",
-      "type": "vless",
-      "server": "s4ws.ragingbull.de5.net",
-      "server_port": 2083,
-      "uuid": "f49d04d6-aaa7-4013-b323-bc35b78230db",
-      "transport": {
-        "type": "ws",
-        "path": "/wsrb7k2m",
-        "headers": {
-          "Host": "s4ws.ragingbull.de5.net"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "s4ws.ragingbull.de5.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇪🇸_ES_西班牙",
       "type": "shadowsocks",
       "server": "5.188.181.201",
-      "server_port": 9003,
+      "server_port": 9019,
       "method": "aes-256-cfb",
-      "password": "JdmRK9gMEqFgs8nP"
+      "password": "GA9KzeEgvfxNrgmM"
     },
     {
-      "tag": "🇺🇸_US_美国_2",
+      "tag": "🇫🇷_FR_法国_1",
+      "type": "shadowsocks",
+      "server": "13.36.178.160",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05"
+    },
+    {
+      "tag": "🇺🇸_US_美国_1",
       "type": "vmess",
       "server": "guanwang.awsno.com",
       "server_port": 443,
@@ -582,21 +504,23 @@
       }
     },
     {
-      "tag": "🇸🇬_SG_新加坡",
+      "tag": "🇺🇸_US_美国_2",
       "type": "vless",
-      "server": "asia.csmaster.site",
+      "server": "x.m-90.xyz",
       "server_port": 443,
-      "uuid": "a853e120-3570-462b-aec1-e8f3d4f92d24",
+      "uuid": "489f1717-d3c7-4940-ad68-bdbdbab857f4",
       "transport": {
         "type": "ws",
+        "path": "t.me/TEAMNETGRATISCOL",
         "headers": {
-          "Host": "asia.csmaster.site"
+          "Host": "x.m-90.xyz"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       },
       "tls": {
         "enabled": true,
+        "server_name": "x.m-90.xyz",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -605,39 +529,13 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇮🇪_IE_爱尔兰",
-      "type": "vmess",
-      "server": "v4.hdacd.com",
-      "server_port": 30804,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港->🇫🇷_FR_法国",
-      "type": "vmess",
-      "server": "v35.hdacd.com",
-      "server_port": 30835,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇳_CN_中国->🇺🇸_US_美国",
+      "tag": "🇩🇪_DE_德国",
       "type": "vless",
-      "server": "jp.sofast.live",
-      "server_port": 52683,
-      "uuid": "399b6b23-cc40-4831-a494-61948e2df133",
+      "server": "13.143.172.203",
+      "server_port": 443,
+      "uuid": "88aefb0c-cdbf-489f-9e6b-9be5b5fd5a11",
       "tls": {
-        "enabled": false,
+        "enabled": true,
         "insecure": true
       }
     },
@@ -658,65 +556,15 @@
       }
     },
     {
-      "tag": "🇩🇪_DE_德国",
-      "type": "trojan",
-      "server": "de.zhabulik.ru",
-      "server_port": 443,
-      "password": "WFer-5gN21nfHbVB2N8s71Z74EPUfzVj",
-      "network": "tcp",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.zhabulik.ru",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬_SG_新加坡_1",
-      "type": "vless",
-      "server": "asia.csmaster.site",
-      "server_port": 8443,
-      "uuid": "799b1006-3255-4e36-8ea0-64fe24d2bfa7",
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "asia.csmaster.site"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "asia.csmaster.site",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
+      "tag": "🇨🇳_CN_中国->🇵🇭_PH_菲律宾",
       "type": "vmess",
-      "server": "v36.hdacd.com",
-      "server_port": 30836,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "server": "silversbgfgov.vip44.wogbcnmnagfwgov.com",
+      "server_port": 11244,
+      "uuid": "605956ee-544d-308e-8b90-51e67c6ea8da",
       "alter_id": 2,
       "security": "auto",
       "tls": {
         "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇳🇱_NL_荷兰",
-      "type": "trojan",
-      "server": "nl.zhabulik.ru",
-      "server_port": 443,
-      "password": "WFer-5gN21nfHbVB2N8s71Z74EPUfzVj",
-      "network": "tcp",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl.zhabulik.ru",
         "insecure": true
       }
     }

@@ -124,14 +124,13 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸_US_美国",
-        "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
         "🇨🇳_CN_中国",
-        "🇭🇰_HK_中国香港",
-        "🇨🇦_CA_加拿大",
-        "🇩🇪_DE_德国->🇱🇰_LK_斯里兰卡",
+        "🇨🇳_CN_中国_1",
+        "🇨🇳_CN_中国->🇺🇸_US_美国",
+        "🇺🇸_US_美国",
+        "🇩🇪_DE_德国",
         "🇺🇸_US_美国_1",
-        "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+        "🇳🇱_NL_荷兰"
       ]
     },
     {
@@ -337,8 +336,7 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
-        "🇭🇰_HK_中国香港"
+        "Proxy"
       ]
     },
     {
@@ -366,6 +364,7 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇨🇳_CN_中国->🇺🇸_US_美国",
         "🇺🇸_US_美国",
         "🇺🇸_US_美国_1"
       ]
@@ -375,23 +374,22 @@
       "type": "selector",
       "outbounds": [
         "🇨🇳_CN_中国",
-        "🇨🇦_CA_加拿大",
-        "🇩🇪_DE_德国->🇱🇰_LK_斯里兰卡",
-        "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+        "🇨🇳_CN_中国_1",
+        "🇩🇪_DE_德国",
+        "🇳🇱_NL_荷兰"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸_US_美国",
-        "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
         "🇨🇳_CN_中国",
-        "🇭🇰_HK_中国香港",
-        "🇨🇦_CA_加拿大",
-        "🇩🇪_DE_德国->🇱🇰_LK_斯里兰卡",
+        "🇨🇳_CN_中国_1",
+        "🇨🇳_CN_中国->🇺🇸_US_美国",
+        "🇺🇸_US_美国",
+        "🇩🇪_DE_德国",
         "🇺🇸_US_美国_1",
-        "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+        "🇳🇱_NL_荷兰"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -402,7 +400,83 @@
       "tag": "direct"
     },
     {
+      "tag": "🇨🇳_CN_中国",
+      "type": "vmess",
+      "server": "112.132.215.108",
+      "server_port": 50002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "alter_id": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇳_CN_中国_1",
+      "type": "vmess",
+      "server": "39.108.113.127",
+      "server_port": 10086,
+      "uuid": "2b910c43-51e3-4b15-9be8-b658106ba35e",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇳_CN_中国->🇺🇸_US_美国",
+      "type": "vless",
+      "server": "jp.sofast.live",
+      "server_port": 52683,
+      "uuid": "399b6b23-cc40-4831-a494-61948e2df133",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
       "tag": "🇺🇸_US_美国",
+      "type": "vless",
+      "server": "04b51566-9333-492b-b680-8f80752411f9.fly.dev",
+      "server_port": 443,
+      "uuid": "996d5cc2-defd-b038-4728-6a450d1c373a",
+      "transport": {
+        "type": "ws",
+        "path": "/ws/996d5cc2-defd-b038-4728-6a450d1c373a",
+        "headers": {
+          "Host": "04b51566-9333-492b-b680-8f80752411f9.fly.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "04b51566-9333-492b-b680-8f80752411f9.fly.dev",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪_DE_德国",
+      "type": "vless",
+      "server": "77.221.157.213",
+      "server_port": 10443,
+      "uuid": "1d006ad5-1de1-4520-a5f4-875dae1b0a5d",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇺🇸_US_美国_1",
       "type": "vmess",
       "server": "guanwang.awsno.com",
       "server_port": 443,
@@ -423,107 +497,27 @@
       }
     },
     {
-      "tag": "🇭🇰_HK_中国香港->🇬🇧_GB_英国",
-      "type": "vmess",
-      "server": "v36.hdacd.com",
-      "server_port": 30836,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇳_CN_中国",
-      "type": "vmess",
-      "server": "112.132.215.108",
-      "server_port": 50002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "alter_id": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港",
-      "type": "vmess",
-      "server": "v29.hdacd.com",
-      "server_port": 30829,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦_CA_加拿大",
-      "type": "trojan",
-      "server": "ca.tronsg.com",
-      "server_port": 443,
-      "password": "Trojan@82164024",
-      "network": "tcp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ca.tronsg.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪_DE_德国->🇱🇰_LK_斯里兰卡",
+      "tag": "🇳🇱_NL_荷兰",
       "type": "vless",
-      "server": "free.sahanwickramasinghe.me",
-      "server_port": 80,
-      "uuid": "fcdb24e3-5e66-4c45-b89e-ac9441f4dcda",
+      "server": "nl5.hap-plus.ru",
+      "server_port": 8443,
+      "uuid": "05d7a479-a099-40cf-aecf-41aa934767b0",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/api/v1/events",
         "headers": {
-          "Host": "free.sahanwickramasinghe.me"
+          "Host": "nl5.hap-plus.ru"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       },
       "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_1",
-      "type": "vless",
-      "server": "s880.gogocs.xyz",
-      "server_port": 443,
-      "uuid": "30e52776-55ac-3cb4-8d36-e2910f07e2c3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
         "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国",
-      "type": "vmess",
-      "server": "renderer-stream-2-114.mirra.now",
-      "server_port": 443,
-      "uuid": "8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/gpu-stream/socket",
-        "headers": {
-          "Host": "renderer-stream-2-114.mirra.now"
-        }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "renderer-stream-2-114.mirra.now",
+        "server_name": "nl5.hap-plus.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
         "insecure": true
       }
     }

@@ -124,9 +124,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱_PL_波兰",
+        "🇨🇳_CN_中国->🇫🇷_FR_法国",
+        "🇨🇳_CN_中国->🇯🇵_JP_日本",
+        "🇯🇵_JP_日本",
+        "🇨🇳_CN_中国->🇮🇪_IE_爱尔兰",
         "🇨🇳_CN_中国",
         "🇨🇳_CN_中国_1",
-        "🇵🇱_PL_波兰",
         "🇺🇸_US_美国"
       ]
     },
@@ -354,7 +358,8 @@
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇨🇳_CN_中国->🇯🇵_JP_日本",
+        "🇯🇵_JP_日本"
       ]
     },
     {
@@ -368,18 +373,24 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇵🇱_PL_波兰",
+        "🇨🇳_CN_中国->🇫🇷_FR_法国",
+        "🇨🇳_CN_中国->🇮🇪_IE_爱尔兰",
         "🇨🇳_CN_中国",
-        "🇨🇳_CN_中国_1",
-        "🇵🇱_PL_波兰"
+        "🇨🇳_CN_中国_1"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇵🇱_PL_波兰",
+        "🇨🇳_CN_中国->🇫🇷_FR_法国",
+        "🇨🇳_CN_中国->🇯🇵_JP_日本",
+        "🇯🇵_JP_日本",
+        "🇨🇳_CN_中国->🇮🇪_IE_爱尔兰",
         "🇨🇳_CN_中国",
         "🇨🇳_CN_中国_1",
-        "🇵🇱_PL_波兰",
         "🇺🇸_US_美国"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -391,23 +402,72 @@
       "tag": "direct"
     },
     {
-      "tag": "🇨🇳_CN_中国",
+      "tag": "🇵🇱_PL_波兰",
+      "type": "trojan",
+      "server": "78.17.171.62",
+      "server_port": 443,
+      "password": "u93yPGuY2zgIsisJZKS2QzJzg",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "FREETOPLAY-2.TETRIS-GAME.WORLD",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇳_CN_中国->🇫🇷_FR_法国",
       "type": "vmess",
-      "server": "120.48.133.162",
-      "server_port": 10086,
-      "uuid": "2b910c43-51e3-4b15-9be8-b658106ba35e",
-      "alter_id": 0,
+      "server": "v35.hdacd.com",
+      "server_port": 30835,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alter_id": 2,
       "security": "auto",
-      "transport": {
-        "type": "ws"
-      },
       "tls": {
         "enabled": false,
         "insecure": true
       }
     },
     {
-      "tag": "🇨🇳_CN_中国_1",
+      "tag": "🇨🇳_CN_中国->🇯🇵_JP_日本",
+      "type": "vmess",
+      "server": "v6.hdacd.com",
+      "server_port": 30806,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alter_id": 2,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵_JP_日本",
+      "type": "vmess",
+      "server": "oc.imfun.fun",
+      "server_port": 18112,
+      "uuid": "ad45f8f6-0f0a-4cc4-b907-c4582407dc94",
+      "alter_id": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇳_CN_中国->🇮🇪_IE_爱尔兰",
+      "type": "vmess",
+      "server": "v4.hdacd.com",
+      "server_port": 30804,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alter_id": 2,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇳_CN_中国",
       "type": "vmess",
       "server": "112.132.215.108",
       "server_port": 50002,
@@ -420,15 +480,18 @@
       }
     },
     {
-      "tag": "🇵🇱_PL_波兰",
-      "type": "trojan",
-      "server": "201.10.90.81",
-      "server_port": 443,
-      "password": "u93yPGuY2zgIsisJZKS2QzJzg",
-      "network": "tcp",
+      "tag": "🇨🇳_CN_中国_1",
+      "type": "vmess",
+      "server": "120.48.133.162",
+      "server_port": 10086,
+      "uuid": "2b910c43-51e3-4b15-9be8-b658106ba35e",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws"
+      },
       "tls": {
-        "enabled": true,
-        "server_name": "HL-FREEDOM-2.UNDEF.NETWORK",
+        "enabled": false,
         "insecure": true
       }
     },

@@ -126,9 +126,8 @@
         "direct",
         "🇺🇸_US_美国",
         "🇨🇳_CN_中国",
-        "🇺🇸_US_美国_1",
-        "🇨🇳_CN_中国_1",
-        "🇨🇳_CN_中国_2"
+        "🇵🇱_PL_波兰",
+        "🇩🇪_DE_德国"
       ]
     },
     {
@@ -362,8 +361,7 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸_US_美国",
-        "🇺🇸_US_美国_1"
+        "🇺🇸_US_美国"
       ]
     },
     {
@@ -371,8 +369,8 @@
       "type": "selector",
       "outbounds": [
         "🇨🇳_CN_中国",
-        "🇨🇳_CN_中国_1",
-        "🇨🇳_CN_中国_2"
+        "🇵🇱_PL_波兰",
+        "🇩🇪_DE_德国"
       ]
     },
     {
@@ -381,9 +379,8 @@
       "outbounds": [
         "🇺🇸_US_美国",
         "🇨🇳_CN_中国",
-        "🇺🇸_US_美国_1",
-        "🇨🇳_CN_中国_1",
-        "🇨🇳_CN_中国_2"
+        "🇵🇱_PL_波兰",
+        "🇩🇪_DE_德国"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -416,64 +413,36 @@
     },
     {
       "tag": "🇨🇳_CN_中国",
-      "type": "vless",
-      "server": "us22.sofast.live",
-      "server_port": 58011,
-      "uuid": "0afc6426-606c-48e7-bd70-3c424a416842",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_1",
-      "type": "vless",
-      "server": "cfnode-11ivy8.pages.dev",
-      "server_port": 443,
-      "uuid": "2ea2719c-23e1-4cde-b192-c8652d55d9e5",
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "cfnode-11ivy8.pages.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "cfnode-11ivy8.pages.dev",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇳_CN_中国_1",
-      "type": "vmess",
-      "server": "120.48.133.162",
-      "server_port": 10086,
-      "uuid": "4fc543d5-23ce-4556-ae2b-01685edd4397",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇳_CN_中国_2",
       "type": "vmess",
       "server": "112.132.215.108",
       "server_port": 50002,
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "alter_id": 64,
       "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱_PL_波兰",
+      "type": "trojan",
+      "server": "78.17.171.106",
+      "server_port": 443,
+      "password": "u93yPGuY2zgIsisJZKS2QzJzg",
+      "network": "tcp",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.HI-L.IM",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪_DE_德国",
+      "type": "vless",
+      "server": "edge10.cyrionflare.com",
+      "server_port": 2052,
+      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
       "tls": {
         "enabled": false,
         "insecure": true

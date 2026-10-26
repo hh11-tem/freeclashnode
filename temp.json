@@ -125,18 +125,18 @@
         "auto",
         "direct",
         "🇮🇹_IT_意大利",
+        "🇺🇸_US_美国",
+        "🇯🇵_JP_日本",
         "🇮🇹_IT_意大利_1",
+        "🇨🇳_CN_中国->🇫🇷_FR_法国",
+        "🇨🇳_CN_中国",
+        "🇷🇺_RU_俄罗斯",
         "🇮🇹_IT_意大利_2",
         "🇮🇹_IT_意大利_3",
-        "🇺🇸_US_美国",
-        "🇺🇸_US_美国_1",
-        "🇨🇳_CN_中国",
-        "🇺🇸_US_美国_2",
+        "🇭🇰_HK_中国香港",
         "🇮🇹_IT_意大利_4",
-        "🇫🇮_FI_芬兰",
         "🇮🇹_IT_意大利_5",
         "🇮🇹_IT_意大利_6",
-        "🇨🇳_CN_中国_1",
         "🇮🇹_IT_意大利_7"
       ]
     },
@@ -343,7 +343,7 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇭🇰_HK_中国香港"
       ]
     },
     {
@@ -364,16 +364,14 @@
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇯🇵_JP_日本"
       ]
     },
     {
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸_US_美国",
-        "🇺🇸_US_美国_1",
-        "🇺🇸_US_美国_2"
+        "🇺🇸_US_美国"
       ]
     },
     {
@@ -382,14 +380,14 @@
       "outbounds": [
         "🇮🇹_IT_意大利",
         "🇮🇹_IT_意大利_1",
+        "🇨🇳_CN_中国->🇫🇷_FR_法国",
+        "🇨🇳_CN_中国",
+        "🇷🇺_RU_俄罗斯",
         "🇮🇹_IT_意大利_2",
         "🇮🇹_IT_意大利_3",
-        "🇨🇳_CN_中国",
         "🇮🇹_IT_意大利_4",
-        "🇫🇮_FI_芬兰",
         "🇮🇹_IT_意大利_5",
         "🇮🇹_IT_意大利_6",
-        "🇨🇳_CN_中国_1",
         "🇮🇹_IT_意大利_7"
       ]
     },
@@ -398,18 +396,18 @@
       "type": "urltest",
       "outbounds": [
         "🇮🇹_IT_意大利",
+        "🇺🇸_US_美国",
+        "🇯🇵_JP_日本",
         "🇮🇹_IT_意大利_1",
+        "🇨🇳_CN_中国->🇫🇷_FR_法国",
+        "🇨🇳_CN_中国",
+        "🇷🇺_RU_俄罗斯",
         "🇮🇹_IT_意大利_2",
         "🇮🇹_IT_意大利_3",
-        "🇺🇸_US_美国",
-        "🇺🇸_US_美国_1",
-        "🇨🇳_CN_中国",
-        "🇺🇸_US_美国_2",
+        "🇭🇰_HK_中国香港",
         "🇮🇹_IT_意大利_4",
-        "🇫🇮_FI_芬兰",
         "🇮🇹_IT_意大利_5",
         "🇮🇹_IT_意大利_6",
-        "🇨🇳_CN_中国_1",
         "🇮🇹_IT_意大利_7"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -423,78 +421,13 @@
     {
       "tag": "🇮🇹_IT_意大利",
       "type": "shadowsocks",
-      "server": "202.50.253.99",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇮🇹_IT_意大利_1",
-      "type": "shadowsocks",
-      "server": "202.50.253.63",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇮🇹_IT_意大利_2",
-      "type": "shadowsocks",
-      "server": "202.50.253.45",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇮🇹_IT_意大利_3",
-      "type": "shadowsocks",
-      "server": "202.50.253.54",
+      "server": "202.50.253.72",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇺🇸_US_美国",
-      "type": "vless",
-      "server": "23.160.56.99",
-      "server_port": 2087,
-      "uuid": "f1e7eafa-0d6f-441e-8565-29f34171aef2",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_1",
-      "type": "vmess",
-      "server": "node8.liudonghoe.com",
-      "server_port": 443,
-      "uuid": "47050e4e-965d-41ca-976d-73c1f11e6905",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/hoe8"
-      },
-      "tls": {
-        "enabled": true,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇳_CN_中国",
-      "type": "vmess",
-      "server": "112.132.215.108",
-      "server_port": 50002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "alter_id": 64,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸_US_美国_2",
       "type": "vmess",
       "server": "guanwang.awsno.com",
       "server_port": 443,
@@ -515,7 +448,15 @@
       }
     },
     {
-      "tag": "🇮🇹_IT_意大利_4",
+      "tag": "🇯🇵_JP_日本",
+      "type": "shadowsocks",
+      "server": "154.36.158.197",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "BeaUf9c0AEWH40Pu"
+    },
+    {
+      "tag": "🇮🇹_IT_意大利_1",
       "type": "shadowsocks",
       "server": "202.50.253.81",
       "server_port": 19999,
@@ -523,40 +464,58 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇫🇮_FI_芬兰",
+      "tag": "🇨🇳_CN_中国->🇫🇷_FR_法国",
+      "type": "vmess",
+      "server": "v35.hdacd.com",
+      "server_port": 30835,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alter_id": 2,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇳_CN_中国",
+      "type": "vmess",
+      "server": "112.132.215.108",
+      "server_port": 50002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "alter_id": 64,
+      "security": "auto",
+      "tls": {
+        "enabled": false,
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇺_RU_俄罗斯",
       "type": "vless",
-      "server": "hw3.divarkhaghazi.com.",
-      "server_port": 465,
-      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
+      "server": "santehdv.site",
+      "server_port": 443,
+      "uuid": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/media/stream/qUWu2oaFgxAw",
         "headers": {
-          "Host": "hw3.divarkhaghazi.com."
+          "Host": "santehdv.site"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
       },
       "tls": {
         "enabled": true,
-        "server_name": "hw3.divarkhaghazi.com.",
+        "server_name": "santehdv.site",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "insecure": true
       }
     },
     {
-      "tag": "🇮🇹_IT_意大利_5",
-      "type": "shadowsocks",
-      "server": "202.50.253.72",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇮🇹_IT_意大利_6",
+      "tag": "🇮🇹_IT_意大利_2",
       "type": "shadowsocks",
       "server": "202.50.253.18",
       "server_port": 19999,
@@ -564,12 +523,20 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇨🇳_CN_中国_1",
+      "tag": "🇮🇹_IT_意大利_3",
+      "type": "shadowsocks",
+      "server": "202.50.253.99",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇭🇰_HK_中国香港",
       "type": "vmess",
-      "server": "120.48.133.162",
-      "server_port": 10086,
-      "uuid": "a01e5d56-464f-45b9-b600-164db4700162",
-      "alter_id": 0,
+      "server": "hkgb707.ifastcdncache.com",
+      "server_port": 60852,
+      "uuid": "f8eca8df-a1a5-4918-a194-d34112a3673f",
+      "alter_id": 2,
       "security": "auto",
       "transport": {
         "type": "ws"
@@ -578,6 +545,30 @@
         "enabled": false,
         "insecure": true
       }
+    },
+    {
+      "tag": "🇮🇹_IT_意大利_4",
+      "type": "shadowsocks",
+      "server": "202.50.253.45",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹_IT_意大利_5",
+      "type": "shadowsocks",
+      "server": "202.50.253.63",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹_IT_意大利_6",
+      "type": "shadowsocks",
+      "server": "202.50.253.54",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇮🇹_IT_意大利_7",

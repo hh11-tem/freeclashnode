@@ -124,20 +124,27 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹_IT_意大利",
-        "🇺🇸_US_美国",
-        "🇯🇵_JP_日本",
-        "🇮🇹_IT_意大利_1",
-        "🇨🇳_CN_中国->🇫🇷_FR_法国",
-        "🇨🇳_CN_中国",
-        "🇷🇺_RU_俄罗斯",
-        "🇮🇹_IT_意大利_2",
-        "🇮🇹_IT_意大利_3",
-        "🇭🇰_HK_中国香港",
-        "🇮🇹_IT_意大利_4",
-        "🇮🇹_IT_意大利_5",
-        "🇮🇹_IT_意大利_6",
-        "🇮🇹_IT_意大利_7"
+        "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4",
+        "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4 (2)",
+        "🇺🇸 机场推荐:dafei.de 美国 10_IPV4",
+        "🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4",
+        "🇫🇷_FR_法国_IPV4",
+        "🇹🇼_TW_台湾_IPV4",
+        "🇹🇼_TW_台湾_IPV4 (2)",
+        "🇩🇪_DE_德国_IPV4",
+        "🇺🇸_US_美国_IPV4",
+        "🇺🇸_US_美国_IPV4 (2)",
+        "🇫🇷_FR_法国_IPV4 (2)",
+        "🇺🇸_US_美国_IPV4 (3)",
+        "🇮🇹_IT_意大利_IPV4",
+        "🇮🇹_IT_意大利_IPV4 (2)",
+        "🇮🇹_IT_意大利_IPV4 (3)",
+        "🇮🇹_IT_意大利_IPV4 (4)",
+        "🇮🇹_IT_意大利_IPV4 (5)",
+        "🇮🇹_IT_意大利_IPV4 (6)",
+        "🇮🇹_IT_意大利_IPV4 (7)",
+        "🇮🇹_IT_意大利_IPV4 (8)",
+        "🇮🇹_IT_意大利_IPV4 (9)"
       ]
     },
     {
@@ -343,72 +350,87 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_中国香港"
+        "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4"
       ]
     },
     {
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇹🇼_TW_台湾_IPV4",
+        "🇹🇼_TW_台湾_IPV4 (2)"
       ]
     },
     {
       "tag": "Singapore",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4"
       ]
     },
     {
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇯🇵_JP_日本"
+        "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4"
       ]
     },
     {
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸_US_美国"
+        "🇺🇸 机场推荐:dafei.de 美国 10_IPV4",
+        "🇺🇸_US_美国_IPV4",
+        "🇺🇸_US_美国_IPV4 (2)",
+        "🇺🇸_US_美国_IPV4 (3)"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇮🇹_IT_意大利",
-        "🇮🇹_IT_意大利_1",
-        "🇨🇳_CN_中国->🇫🇷_FR_法国",
-        "🇨🇳_CN_中国",
-        "🇷🇺_RU_俄罗斯",
-        "🇮🇹_IT_意大利_2",
-        "🇮🇹_IT_意大利_3",
-        "🇮🇹_IT_意大利_4",
-        "🇮🇹_IT_意大利_5",
-        "🇮🇹_IT_意大利_6",
-        "🇮🇹_IT_意大利_7"
+        "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4",
+        "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4 (2)",
+        "🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4",
+        "🇫🇷_FR_法国_IPV4",
+        "🇩🇪_DE_德国_IPV4",
+        "🇫🇷_FR_法国_IPV4 (2)",
+        "🇮🇹_IT_意大利_IPV4",
+        "🇮🇹_IT_意大利_IPV4 (2)",
+        "🇮🇹_IT_意大利_IPV4 (3)",
+        "🇮🇹_IT_意大利_IPV4 (4)",
+        "🇮🇹_IT_意大利_IPV4 (5)",
+        "🇮🇹_IT_意大利_IPV4 (6)",
+        "🇮🇹_IT_意大利_IPV4 (7)",
+        "🇮🇹_IT_意大利_IPV4 (8)",
+        "🇮🇹_IT_意大利_IPV4 (9)"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇮🇹_IT_意大利",
-        "🇺🇸_US_美国",
-        "🇯🇵_JP_日本",
-        "🇮🇹_IT_意大利_1",
-        "🇨🇳_CN_中国->🇫🇷_FR_法国",
-        "🇨🇳_CN_中国",
-        "🇷🇺_RU_俄罗斯",
-        "🇮🇹_IT_意大利_2",
-        "🇮🇹_IT_意大利_3",
-        "🇭🇰_HK_中国香港",
-        "🇮🇹_IT_意大利_4",
-        "🇮🇹_IT_意大利_5",
-        "🇮🇹_IT_意大利_6",
-        "🇮🇹_IT_意大利_7"
+        "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4",
+        "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4 (2)",
+        "🇺🇸 机场推荐:dafei.de 美国 10_IPV4",
+        "🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4",
+        "🇫🇷_FR_法国_IPV4",
+        "🇹🇼_TW_台湾_IPV4",
+        "🇹🇼_TW_台湾_IPV4 (2)",
+        "🇩🇪_DE_德国_IPV4",
+        "🇺🇸_US_美国_IPV4",
+        "🇺🇸_US_美国_IPV4 (2)",
+        "🇫🇷_FR_法国_IPV4 (2)",
+        "🇺🇸_US_美国_IPV4 (3)",
+        "🇮🇹_IT_意大利_IPV4",
+        "🇮🇹_IT_意大利_IPV4 (2)",
+        "🇮🇹_IT_意大利_IPV4 (3)",
+        "🇮🇹_IT_意大利_IPV4 (4)",
+        "🇮🇹_IT_意大利_IPV4 (5)",
+        "🇮🇹_IT_意大利_IPV4 (6)",
+        "🇮🇹_IT_意大利_IPV4 (7)",
+        "🇮🇹_IT_意大利_IPV4 (8)",
+        "🇮🇹_IT_意大利_IPV4 (9)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -419,164 +441,269 @@
       "tag": "direct"
     },
     {
-      "tag": "🇮🇹_IT_意大利",
-      "type": "shadowsocks",
-      "server": "202.50.253.72",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "hysteria2",
+      "tag": "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4",
+      "server": "forshynewh.duckdns.org",
+      "server_port": 443,
+      "password": "69e41e64-a832-471a-b740-94577ca85520",
+      "tls": {
+        "enabled": true,
+        "server_name": "forshynewh.duckdns.org",
+        "insecure": false,
+        "alpn": [
+          "h3"
+        ]
+      }
     },
     {
-      "tag": "🇺🇸_US_美国",
+      "type": "hysteria2",
+      "tag": "🇦🇪_AE_阿拉伯联合酋长国->🇫🇮_FI_芬兰_IPV4 (2)",
+      "server": "217.60.73.56",
+      "server_port": 443,
+      "password": "69e41e64-a832-471a-b740-94577ca85520",
+      "tls": {
+        "enabled": true,
+        "server_name": "forshynewh.duckdns.org",
+        "insecure": true
+      }
+    },
+    {
       "type": "vmess",
-      "server": "guanwang.awsno.com",
+      "tag": "🇺🇸 机场推荐:dafei.de 美国 10_IPV4",
+      "server": "www.shopify.com",
       "server_port": 443,
       "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
       "alter_id": 0,
       "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "guanwang.awsno.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "/hls/cctv5phd.m3u8",
         "headers": {
           "Host": "guanwang.awsno.com"
         }
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "guanwang.awsno.com",
-        "insecure": true
       }
     },
     {
-      "tag": "🇯🇵_JP_日本",
-      "type": "shadowsocks",
-      "server": "154.36.158.197",
-      "server_port": 8388,
-      "method": "aes-256-gcm",
-      "password": "BeaUf9c0AEWH40Pu"
-    },
-    {
-      "tag": "🇮🇹_IT_意大利_1",
-      "type": "shadowsocks",
-      "server": "202.50.253.81",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇨🇳_CN_中国->🇫🇷_FR_法国",
-      "type": "vmess",
-      "server": "v35.hdacd.com",
-      "server_port": 30835,
-      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-      "alter_id": 2,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇳_CN_中国",
-      "type": "vmess",
-      "server": "112.132.215.108",
-      "server_port": 50002,
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-      "alter_id": 64,
-      "security": "auto",
-      "tls": {
-        "enabled": false,
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇷🇺_RU_俄罗斯",
       "type": "vless",
-      "server": "santehdv.site",
+      "tag": "🇩🇪_DE_德国->🇫🇷_FR_法国_IPV4",
+      "server": "163.245.42.132",
       "server_port": 443,
-      "uuid": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
-      "transport": {
-        "type": "ws",
-        "path": "/media/stream/qUWu2oaFgxAw",
-        "headers": {
-          "Host": "santehdv.site"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      },
+      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "santehdv.site",
+        "server_name": "mother-earth.fyi",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
-        "insecure": true
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+        }
       }
     },
     {
-      "tag": "🇮🇹_IT_意大利_2",
-      "type": "shadowsocks",
-      "server": "202.50.253.18",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇮🇹_IT_意大利_3",
-      "type": "shadowsocks",
-      "server": "202.50.253.99",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇭🇰_HK_中国香港",
-      "type": "vmess",
-      "server": "hkgb707.ifastcdncache.com",
-      "server_port": 60852,
-      "uuid": "f8eca8df-a1a5-4918-a194-d34112a3673f",
-      "alter_id": 2,
-      "security": "auto",
-      "transport": {
-        "type": "ws"
-      },
+      "type": "hysteria",
+      "tag": "🇫🇷_FR_法国_IPV4",
+      "server": "62.210.28.175",
+      "server_port": 24667,
+      "auth_str": "dongtaiwang.com",
       "tls": {
-        "enabled": false,
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "up_mbps": 11,
+      "down_mbps": 55
+    },
+    {
+      "type": "anytls",
+      "tag": "🇹🇼_TW_台湾_IPV4",
+      "server": "er8u54dh.df6h451rh.xin",
+      "server_port": 443,
+      "password": "0324fbc29561",
+      "tls": {
+        "enabled": true,
+        "server_name": "px.ads.linkedin.com",
         "insecure": true
       }
     },
     {
-      "tag": "🇮🇹_IT_意大利_4",
-      "type": "shadowsocks",
-      "server": "202.50.253.45",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "anytls",
+      "tag": "🇹🇼_TW_台湾_IPV4 (2)",
+      "server": "684616s4.df6h451rh.xin",
+      "server_port": 443,
+      "password": "0324fbc29561",
+      "tls": {
+        "enabled": true,
+        "server_name": "px.ads.linkedin.com",
+        "insecure": true
+      }
     },
     {
-      "tag": "🇮🇹_IT_意大利_5",
+      "type": "hysteria",
+      "tag": "🇩🇪_DE_德国_IPV4",
+      "server": "5.83.129.90",
+      "server_port": 54177,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "up_mbps": 11,
+      "down_mbps": 55
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇺🇸_US_美国_IPV4",
+      "server": "137.175.82.44",
+      "server_port": 443,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "up_mbps": 11,
+      "down_mbps": 55
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇺🇸_US_美国_IPV4 (2)",
+      "server": "198.200.57.142",
+      "server_port": 22335,
+      "auth_str": "github.com/Alvin9999-newpac/fanqiang",
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "up_mbps": 11,
+      "down_mbps": 55
+    },
+    {
+      "type": "hysteria",
+      "tag": "🇫🇷_FR_法国_IPV4 (2)",
+      "server": "163.172.117.163",
+      "server_port": 36699,
+      "auth_str": "dongtaiwang.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      },
+      "up_mbps": 11,
+      "down_mbps": 55
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸_US_美国_IPV4 (3)",
+      "server": "starlink-ft.251313.xyz",
+      "server_port": 443,
+      "password": "https://xship.best",
+      "tls": {
+        "enabled": true,
+        "server_name": "xship.top",
+        "insecure": true
+      }
+    },
+    {
       "type": "shadowsocks",
+      "tag": "🇮🇹_IT_意大利_IPV4",
+      "server": "202.50.253.27",
+      "server_port": 19999,
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹_IT_意大利_IPV4 (2)",
+      "server": "202.50.253.36",
+      "server_port": 19999,
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹_IT_意大利_IPV4 (3)",
       "server": "202.50.253.63",
       "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
     },
     {
-      "tag": "🇮🇹_IT_意大利_6",
       "type": "shadowsocks",
+      "tag": "🇮🇹_IT_意大利_IPV4 (4)",
+      "server": "202.50.253.18",
+      "server_port": 19999,
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹_IT_意大利_IPV4 (5)",
       "server": "202.50.253.54",
       "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
     },
     {
-      "tag": "🇮🇹_IT_意大利_7",
       "type": "shadowsocks",
-      "server": "202.50.253.90",
+      "tag": "🇮🇹_IT_意大利_IPV4 (6)",
+      "server": "202.50.253.45",
       "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹_IT_意大利_IPV4 (7)",
+      "server": "202.50.253.99",
+      "server_port": 19999,
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹_IT_意大利_IPV4 (8)",
+      "server": "202.50.253.81",
+      "server_port": 19999,
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹_IT_意大利_IPV4 (9)",
+      "server": "202.50.253.72",
+      "server_port": 19999,
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
     }
   ],
   "http_clients": [

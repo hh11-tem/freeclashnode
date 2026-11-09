@@ -125,12 +125,22 @@
         "auto",
         "direct",
         "🇺🇸_US_美国_IPV4",
+        "🇨🇳_CN_中国_IPV4",
+        "🇯🇵_JP_日本_IPV4",
+        "🇳🇱_NL_荷兰->🇩🇪_DE_德国_IPV4",
+        "🇺🇸 美国 | USA #4-47593152_IPV4",
+        "🇷🇺_RU_俄罗斯_IPV4",
+        "🇺🇸_US_美国_IPV4 (2)",
+        "🇺🇸_US_美国_IPV4 (3)",
+        "🇩🇪_DE_德国_IPV4",
         "🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
         "🇫🇷_FR_法国_IPV6",
+        "🇹🇼_TW_台湾_IPV4",
+        "🇺🇸_US_美国_IPV4 (4)",
         "🇫🇷_FR_法国_IPV4",
-        "🇩🇪_DE_德国_IPV4",
-        "🇺🇸_US_美国_IPV4 (2)",
+        "🇩🇪_DE_德国_IPV4 (2)",
         "🇫🇷_FR_法国_IPV4 (2)",
+        "🇺🇸_US_美国_IPV4 (5)",
         "🇮🇹_IT_意大利_IPV4",
         "🇮🇹_IT_意大利_IPV4 (2)",
         "🇮🇹_IT_意大利_IPV4 (3)",
@@ -353,7 +363,8 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
-        "🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4"
+        "🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
+        "🇹🇼_TW_台湾_IPV4"
       ]
     },
     {
@@ -367,7 +378,7 @@
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇺🇸_US_美国_IPV4"
+        "🇯🇵_JP_日本_IPV4"
       ]
     },
     {
@@ -375,17 +386,25 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸_US_美国_IPV4",
+        "🇺🇸 美国 | USA #4-47593152_IPV4",
+        "🇺🇸_US_美国_IPV4 (2)",
+        "🇺🇸_US_美国_IPV4 (3)",
         "🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
-        "🇺🇸_US_美国_IPV4 (2)"
+        "🇺🇸_US_美国_IPV4 (4)",
+        "🇺🇸_US_美国_IPV4 (5)"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇨🇳_CN_中国_IPV4",
+        "🇳🇱_NL_荷兰->🇩🇪_DE_德国_IPV4",
+        "🇷🇺_RU_俄罗斯_IPV4",
+        "🇩🇪_DE_德国_IPV4",
         "🇫🇷_FR_法国_IPV6",
         "🇫🇷_FR_法国_IPV4",
-        "🇩🇪_DE_德国_IPV4",
+        "🇩🇪_DE_德国_IPV4 (2)",
         "🇫🇷_FR_法国_IPV4 (2)",
         "🇮🇹_IT_意大利_IPV4",
         "🇮🇹_IT_意大利_IPV4 (2)",
@@ -404,12 +423,22 @@
       "type": "urltest",
       "outbounds": [
         "🇺🇸_US_美国_IPV4",
+        "🇨🇳_CN_中国_IPV4",
+        "🇯🇵_JP_日本_IPV4",
+        "🇳🇱_NL_荷兰->🇩🇪_DE_德国_IPV4",
+        "🇺🇸 美国 | USA #4-47593152_IPV4",
+        "🇷🇺_RU_俄罗斯_IPV4",
+        "🇺🇸_US_美国_IPV4 (2)",
+        "🇺🇸_US_美国_IPV4 (3)",
+        "🇩🇪_DE_德国_IPV4",
         "🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
         "🇫🇷_FR_法国_IPV6",
+        "🇹🇼_TW_台湾_IPV4",
+        "🇺🇸_US_美国_IPV4 (4)",
         "🇫🇷_FR_法国_IPV4",
-        "🇩🇪_DE_德国_IPV4",
-        "🇺🇸_US_美国_IPV4 (2)",
+        "🇩🇪_DE_德国_IPV4 (2)",
         "🇫🇷_FR_法国_IPV4 (2)",
+        "🇺🇸_US_美国_IPV4 (5)",
         "🇮🇹_IT_意大利_IPV4",
         "🇮🇹_IT_意大利_IPV4 (2)",
         "🇮🇹_IT_意大利_IPV4 (3)",
@@ -432,10 +461,128 @@
     {
       "type": "shadowsocks",
       "tag": "🇺🇸_US_美国_IPV4",
+      "server": "twichcom.plus-hit.ru",
+      "server_port": 1080,
+      "password": "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA",
+      "method": "chacha20-ietf-poly1305"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇳_CN_中国_IPV4",
+      "server": "120.48.133.162",
+      "server_port": 10086,
+      "uuid": "2a489513-46b5-488c-9899-9faaf2d83cd9",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇯🇵_JP_日本_IPV4",
+      "server": "160.21.74.183",
+      "server_port": 8443,
+      "password": "ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh",
+      "tls": {
+        "enabled": true,
+        "server_name": "160.21.74.183",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱_NL_荷兰->🇩🇪_DE_德国_IPV4",
+      "server": "79.182.39.110",
+      "server_port": 443,
+      "uuid": "94042dd1-d32a-4797-b88c-dc48459e2b34",
+      "tls": {
+        "enabled": true,
+        "server_name": "ac3f32g.de18.h1clayd.click",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q",
+          "short_id": "051e90ed3d657158"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "01ad85319ae3"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 美国 | USA #4-47593152_IPV4",
+      "server": "104.21.7.133",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺_RU_俄罗斯_IPV4",
+      "server": "46.17.47.58",
+      "server_port": 18443,
+      "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa",
+      "method": "aes-256-gcm"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸_US_美国_IPV4 (2)",
+      "server": "23.94.83.37",
+      "server_port": 52080,
+      "uuid": "355c1760-9bde-4b77-916b-5191e7f704a3",
+      "alter_id": 0,
+      "security": "auto",
+      "transport": {
+        "type": "http",
+        "path": "/QQqun-737805443",
+        "host": [
+          "down-cdn.dingtalk.com"
+        ]
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸_US_美国_IPV4 (3)",
       "server": "88.216.254.18",
       "server_port": 1080,
       "password": "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA",
       "method": "chacha20-ietf-poly1305"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪_DE_德国_IPV4",
+      "server": "jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net",
+      "server_port": 443,
+      "password": "6cddea99-9b18-4d42-8638-131bd9f5374f",
+      "tls": {
+        "enabled": true,
+        "server_name": "8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "type": "anytls",
@@ -462,6 +609,37 @@
       }
     },
     {
+      "type": "anytls",
+      "tag": "🇹🇼_TW_台湾_IPV4",
+      "server": "user02.godvpn.lol",
+      "server_port": 62405,
+      "password": "4bbfa33a-449a-4a50-8dfc-6d0de880f7bc",
+      "tls": {
+        "enabled": true,
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸_US_美国_IPV4 (4)",
+      "server": "172.66.0.1",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "alter_id": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      }
+    },
+    {
       "type": "hysteria",
       "tag": "🇫🇷_FR_法国_IPV4",
       "server": "62.210.28.175",
@@ -480,30 +658,13 @@
     },
     {
       "type": "hysteria",
-      "tag": "🇩🇪_DE_德国_IPV4",
+      "tag": "🇩🇪_DE_德国_IPV4 (2)",
       "server": "5.83.129.90",
       "server_port": 54177,
       "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
         "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      },
-      "up_mbps": 11,
-      "down_mbps": 55
-    },
-    {
-      "type": "hysteria",
-      "tag": "🇺🇸_US_美国_IPV4 (2)",
-      "server": "198.200.57.142",
-      "server_port": 22335,
-      "auth_str": "github.com/Alvin9999-newpac/fanqiang",
-      "tls": {
-        "enabled": true,
-        "server_name": "bing.com",
         "insecure": true,
         "alpn": [
           "h3"
@@ -528,6 +689,18 @@
       },
       "up_mbps": 11,
       "down_mbps": 55
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇺🇸_US_美国_IPV4 (5)",
+      "server": "starlink-ft.251313.xyz",
+      "server_port": 443,
+      "password": "https://xship.best",
+      "tls": {
+        "enabled": true,
+        "server_name": "xship.top",
+        "insecure": true
+      }
     },
     {
       "type": "shadowsocks",

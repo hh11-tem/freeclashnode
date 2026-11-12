@@ -124,28 +124,18 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸_US_美国_IPV4",
         "🇨🇳_CN_中国_IPV4",
         "@DeltaKroneckerGithub_3021_IPV4",
-        "🇯🇵_JP_日本_IPV4",
-        "@DeltaKroneckerGithub_1189_IPV4",
-        "🇳🇱_NL_荷兰_IPV4",
-        "🇭🇰_HK_香港->🇩🇪_DE_德国_IPV4",
-        "🇳🇱_NL_荷兰_IPV4 (2)",
-        "@DeltaKroneckerGithub_115_IPV4",
-        "🇳🇱_NL_荷兰->🇩🇪_DE_德国_IPV4",
-        "🇳🇱_NL_荷兰_IPV4 (3)",
-        "🇳🇱_NL_荷兰_IPV4 (4)",
         "🇩🇪_DE_德国_IPV4",
-        "🇩🇪_DE_德国_IPV4 (2)",
         "🇺🇸 机场推荐:dafei.de 美国 15_IPV4",
-        "🇺🇸_US_美国_IPV4",
         "🇺🇸_US_美国_IPV4 (2)",
         "🇺🇸_US_美国_IPV4 (3)",
         "🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
-        "🇺🇸_US_美国_IPV4 (4)",
-        "🇩🇪_DE_德国_IPV4 (3)",
-        "🇺🇸_US_美国_IPV4 (5)",
         "🇫🇷_FR_法国_IPV4",
+        "🇩🇪_DE_德国_IPV4 (2)",
+        "🇺🇸_US_美国_IPV4 (4)",
+        "🇫🇷_FR_法国_IPV4 (2)",
         "🇮🇹_IT_意大利_IPV4",
         "🇮🇹_IT_意大利_IPV4 (2)",
         "🇮🇹_IT_意大利_IPV4 (3)",
@@ -153,7 +143,9 @@
         "🇮🇹_IT_意大利_IPV4 (5)",
         "🇮🇹_IT_意大利_IPV4 (6)",
         "🇮🇹_IT_意大利_IPV4 (7)",
-        "🇮🇹_IT_意大利_IPV4 (8)"
+        "🇮🇹_IT_意大利_IPV4 (8)",
+        "🇮🇹_IT_意大利_IPV4 (9)",
+        "🇮🇹_IT_意大利_IPV4 (10)"
       ]
     },
     {
@@ -359,7 +351,7 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "🇭🇰_HK_香港->🇩🇪_DE_德国_IPV4"
+        "🇺🇸_US_美国_IPV4"
       ]
     },
     {
@@ -373,27 +365,26 @@
       "tag": "Singapore",
       "type": "selector",
       "outbounds": [
-        "🇨🇳_CN_中国_IPV4"
+        "🇺🇸_US_美国_IPV4"
       ]
     },
     {
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇯🇵_JP_日本_IPV4"
+        "🇺🇸_US_美国_IPV4"
       ]
     },
     {
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 机场推荐:dafei.de 美国 15_IPV4",
         "🇺🇸_US_美国_IPV4",
+        "🇺🇸 机场推荐:dafei.de 美国 15_IPV4",
         "🇺🇸_US_美国_IPV4 (2)",
         "🇺🇸_US_美国_IPV4 (3)",
         "🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
-        "🇺🇸_US_美国_IPV4 (4)",
-        "🇺🇸_US_美国_IPV4 (5)"
+        "🇺🇸_US_美国_IPV4 (4)"
       ]
     },
     {
@@ -402,17 +393,10 @@
       "outbounds": [
         "🇨🇳_CN_中国_IPV4",
         "@DeltaKroneckerGithub_3021_IPV4",
-        "@DeltaKroneckerGithub_1189_IPV4",
-        "🇳🇱_NL_荷兰_IPV4",
-        "🇳🇱_NL_荷兰_IPV4 (2)",
-        "@DeltaKroneckerGithub_115_IPV4",
-        "🇳🇱_NL_荷兰->🇩🇪_DE_德国_IPV4",
-        "🇳🇱_NL_荷兰_IPV4 (3)",
-        "🇳🇱_NL_荷兰_IPV4 (4)",
         "🇩🇪_DE_德国_IPV4",
-        "🇩🇪_DE_德国_IPV4 (2)",
-        "🇩🇪_DE_德国_IPV4 (3)",
         "🇫🇷_FR_法国_IPV4",
+        "🇩🇪_DE_德国_IPV4 (2)",
+        "🇫🇷_FR_法国_IPV4 (2)",
         "🇮🇹_IT_意大利_IPV4",
         "🇮🇹_IT_意大利_IPV4 (2)",
         "🇮🇹_IT_意大利_IPV4 (3)",
@@ -420,35 +404,27 @@
         "🇮🇹_IT_意大利_IPV4 (5)",
         "🇮🇹_IT_意大利_IPV4 (6)",
         "🇮🇹_IT_意大利_IPV4 (7)",
-        "🇮🇹_IT_意大利_IPV4 (8)"
+        "🇮🇹_IT_意大利_IPV4 (8)",
+        "🇮🇹_IT_意大利_IPV4 (9)",
+        "🇮🇹_IT_意大利_IPV4 (10)"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇺🇸_US_美国_IPV4",
         "🇨🇳_CN_中国_IPV4",
         "@DeltaKroneckerGithub_3021_IPV4",
-        "🇯🇵_JP_日本_IPV4",
-        "@DeltaKroneckerGithub_1189_IPV4",
-        "🇳🇱_NL_荷兰_IPV4",
-        "🇭🇰_HK_香港->🇩🇪_DE_德国_IPV4",
-        "🇳🇱_NL_荷兰_IPV4 (2)",
-        "@DeltaKroneckerGithub_115_IPV4",
-        "🇳🇱_NL_荷兰->🇩🇪_DE_德国_IPV4",
-        "🇳🇱_NL_荷兰_IPV4 (3)",
-        "🇳🇱_NL_荷兰_IPV4 (4)",
         "🇩🇪_DE_德国_IPV4",
-        "🇩🇪_DE_德国_IPV4 (2)",
         "🇺🇸 机场推荐:dafei.de 美国 15_IPV4",
-        "🇺🇸_US_美国_IPV4",
         "🇺🇸_US_美国_IPV4 (2)",
         "🇺🇸_US_美国_IPV4 (3)",
         "🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
-        "🇺🇸_US_美国_IPV4 (4)",
-        "🇩🇪_DE_德国_IPV4 (3)",
-        "🇺🇸_US_美国_IPV4 (5)",
         "🇫🇷_FR_法国_IPV4",
+        "🇩🇪_DE_德国_IPV4 (2)",
+        "🇺🇸_US_美国_IPV4 (4)",
+        "🇫🇷_FR_法国_IPV4 (2)",
         "🇮🇹_IT_意大利_IPV4",
         "🇮🇹_IT_意大利_IPV4 (2)",
         "🇮🇹_IT_意大利_IPV4 (3)",
@@ -456,7 +432,9 @@
         "🇮🇹_IT_意大利_IPV4 (5)",
         "🇮🇹_IT_意大利_IPV4 (6)",
         "🇮🇹_IT_意大利_IPV4 (7)",
-        "🇮🇹_IT_意大利_IPV4 (8)"
+        "🇮🇹_IT_意大利_IPV4 (8)",
+        "🇮🇹_IT_意大利_IPV4 (9)",
+        "🇮🇹_IT_意大利_IPV4 (10)"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -465,6 +443,29 @@
     {
       "type": "direct",
       "tag": "direct"
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸_US_美国_IPV4",
+      "server": "3.169.9.125",
+      "server_port": 443,
+      "uuid": "67cd3349-f789-4cbb-8b91-4b6b1654ce7c",
+      "tls": {
+        "enabled": true,
+        "server_name": "d14jyezfrcyf60.cloudfront.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "d14jyezfrcyf60.cloudfront.net"
+        }
+      }
     },
     {
       "type": "vmess",
@@ -501,182 +502,6 @@
     },
     {
       "type": "trojan",
-      "tag": "🇯🇵_JP_日本_IPV4",
-      "server": "185.220.238.77",
-      "server_port": 11543,
-      "password": "HutaoCloud",
-      "tls": {
-        "enabled": true,
-        "server_name": "185.220.238.77",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "@DeltaKroneckerGithub_1189_IPV4",
-      "server": "172.64.152.234",
-      "server_port": 443,
-      "password": "558e3e91-0ffa-4180-9386-5813fa7c3cb1",
-      "tls": {
-        "enabled": true,
-        "server_name": "pz333.pzmike.dpdns.org",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "pz333.pzmike.dpdns.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱_NL_荷兰_IPV4",
-      "server": "89.105.195.150",
-      "server_port": 443,
-      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.mediacorphub.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "stats.v2.StreamService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇰_HK_香港->🇩🇪_DE_德国_IPV4",
-      "server": "213.176.92.168",
-      "server_port": 14430,
-      "uuid": "ba52cc43-700d-4040-9444-29214c98e6e0",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "213.176.92.168"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱_NL_荷兰_IPV4 (2)",
-      "server": "app.mediacorphub.org",
-      "server_port": 443,
-      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
-      "tls": {
-        "enabled": true,
-        "server_name": "app.mediacorphub.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "stats.v2.StreamService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "@DeltaKroneckerGithub_115_IPV4",
-      "server": "104.16.10.104",
-      "server_port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱_NL_荷兰->🇩🇪_DE_德国_IPV4",
-      "server": "79.182.39.109",
-      "server_port": 443,
-      "uuid": "b7b8ee80-db83-4276-8c68-87dc88b0b0b5",
-      "tls": {
-        "enabled": true,
-        "server_name": "71b840t.de7.h1clayd.click",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
-          "short_id": "e572b6579ea525d4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱_NL_荷兰_IPV4 (3)",
-      "server": "cdn.mediacorphub.org",
-      "server_port": 443,
-      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.mediacorphub.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "stats.v2.StreamService"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱_NL_荷兰_IPV4 (4)",
-      "server": "images.mediacorphub.org",
-      "server_port": 443,
-      "uuid": "1653818d-532e-46be-b825-384107fb7c3a",
-      "tls": {
-        "enabled": true,
-        "server_name": "images.mediacorphub.org",
-        "insecure": false,
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "stats.v2.StreamService"
-      }
-    },
-    {
-      "type": "trojan",
       "tag": "🇩🇪_DE_德国_IPV4",
       "server": "191.44.112.170.sslip.io",
       "server_port": 443,
@@ -692,18 +517,6 @@
         "headers": {
           "Host": "orbylume.my.to"
         }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇩🇪_DE_德国_IPV4 (2)",
-      "server": "jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net",
-      "server_port": 443,
-      "password": "6cddea99-9b18-4d42-8638-131bd9f5374f",
-      "tls": {
-        "enabled": true,
-        "server_name": "8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net",
-        "insecure": true
       }
     },
     {
@@ -732,7 +545,7 @@
     },
     {
       "type": "hysteria",
-      "tag": "🇺🇸_US_美国_IPV4",
+      "tag": "🇺🇸_US_美国_IPV4 (2)",
       "server": "137.175.82.43",
       "server_port": 20022,
       "auth_str": "dongtaiwang.com",
@@ -749,7 +562,7 @@
     },
     {
       "type": "hysteria",
-      "tag": "🇺🇸_US_美国_IPV4 (2)",
+      "tag": "🇺🇸_US_美国_IPV4 (3)",
       "server": "137.175.82.44",
       "server_port": 20022,
       "auth_str": "dongtaiwang.com",
@@ -765,22 +578,6 @@
       "down_mbps": 55
     },
     {
-      "type": "vmess",
-      "tag": "🇺🇸_US_美国_IPV4 (3)",
-      "server": "23.94.83.37",
-      "server_port": 52080,
-      "uuid": "355c1760-9bde-4b77-916b-5191e7f704a3",
-      "alter_id": 0,
-      "security": "auto",
-      "transport": {
-        "type": "http",
-        "path": "/QQqun-737805443",
-        "host": [
-          "down-cdn.dingtalk.com"
-        ]
-      }
-    },
-    {
       "type": "anytls",
       "tag": "🇹🇼_TW_台湾->🇺🇸_US_美国_IPV4",
       "server": "sdf65h46wr.df6h451rh.xin",
@@ -793,28 +590,25 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇺🇸_US_美国_IPV4 (4)",
-      "server": "172.66.0.1",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "alter_id": 0,
-      "security": "auto",
+      "type": "hysteria",
+      "tag": "🇫🇷_FR_法国_IPV4",
+      "server": "62.210.28.175",
+      "server_port": 24667,
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org"
+        "server_name": "bing.com",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
       },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      }
+      "up_mbps": 11,
+      "down_mbps": 55
     },
     {
       "type": "hysteria",
-      "tag": "🇩🇪_DE_德国_IPV4 (3)",
+      "tag": "🇩🇪_DE_德国_IPV4 (2)",
       "server": "5.83.129.90",
       "server_port": 54177,
       "auth_str": "dongtaiwang.com",
@@ -831,7 +625,7 @@
     },
     {
       "type": "hysteria",
-      "tag": "🇺🇸_US_美国_IPV4 (5)",
+      "tag": "🇺🇸_US_美国_IPV4 (4)",
       "server": "198.200.57.142",
       "server_port": 22335,
       "auth_str": "github.com/Alvin9999-newpac/fanqiang",
@@ -848,7 +642,7 @@
     },
     {
       "type": "hysteria",
-      "tag": "🇫🇷_FR_法国_IPV4",
+      "tag": "🇫🇷_FR_法国_IPV4 (2)",
       "server": "163.172.117.163",
       "server_port": 36699,
       "auth_str": "dongtaiwang.com",
@@ -923,6 +717,22 @@
       "type": "shadowsocks",
       "tag": "🇮🇹_IT_意大利_IPV4 (8)",
       "server": "202.50.253.99",
+      "server_port": 19999,
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹_IT_意大利_IPV4 (9)",
+      "server": "202.50.253.81",
+      "server_port": 19999,
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "method": "aes-256-gcm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇹_IT_意大利_IPV4 (10)",
+      "server": "202.50.253.72",
       "server_port": 19999,
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "method": "aes-256-gcm"
